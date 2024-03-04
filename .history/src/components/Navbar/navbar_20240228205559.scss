@@ -1,0 +1,17 @@
+.nav-main-container {
+  background: red;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  //   .logo-div {
+  //     flex-grow: 1;
+  //   }
+  .nav-inner {
+    a {
+      color: #000;
+      text-decoration: none;
+    }
+    ul li {
+      margin: 20px;
+    }
+  }
+}

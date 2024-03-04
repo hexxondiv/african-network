@@ -1,0 +1,28 @@
+@import "../../variables";
+@import "../../shared-styles";
+
+.car-div {
+  img {
+    height: 100%;
+  }
+  .carousel-caption {
+    top: 50%;
+  }
+  h1 {
+    font-size: 60px;
+    font-weight: bold;
+    text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3),
+      0px -4px 10px rgba(255, 255, 255, 0.3);
+  }
+  button {
+    background: rgba(11, 38, 65, 0.7);
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 40px;
+    margin-top: 40px;
+    &:hover {
+      background: rgba(11, 38, 65, 0.3);
+    }
+  }
+}
