@@ -25,7 +25,6 @@
       border: solid 1px #fff;
       padding: 5px 40px;
       width: 100%;
-      font-family: SoraR;
     }
     button {
       background: #a0a09f;
@@ -34,7 +33,6 @@
       padding: 5px;
       margin-top: 15px;
       border: none;
-      font-family: SoraR !important;
       &:hover {
         background: #fff;
       }
@@ -48,36 +46,21 @@
   padding-top: 10px;
   padding-bottom: 10px;
 }
-.prefooter-writeup {
-  position: absolute;
-  top: 50%;
-  left: 50%;
+.prefooter-div {
+  // padding-top: 100px;
+  // padding-bottom: 100px;
+  // background: url("../../assets/images/prefooter-img.webp");
+  // background-size: cover;
+  // background-repeat: no-repeat;
+  // margin-top: 200px;
   color: #fff;
-  font-weight: bold;
-  transform: translate(-50%, -50%);
-  @media screen and (max-width: 620px) {
-    top: 30%;
-  }
-
-  p {
-    // font-size: 5px;
+  h3 {
     color: #fff;
-    margin-top: 30px;
-  }
-  button {
-    background: rgba(11, 38, 65, 0.7);
-    border: none;
-    color: #fff;
-    text-transform: uppercase;
-    padding: 10px 40px;
-    margin-top: 40px;
-    &:hover {
-      background: rgba(11, 38, 65, 0.3);
-    }
+    margin-bottom: 30px;
   }
 }
 .banner3 {
-  height: 500px;
+  height: 700px;
   // margin-bottom: 65px;
   width: 100%;
 
@@ -85,6 +68,7 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  background-position: center center;
   @media screen and (max-width: 620px) {
     // height: 00px !important;
     margin-top: 40px;
@@ -95,18 +79,24 @@
 }
 .page-shadow3 {
   position: relative;
+  height: 100% !important;
 }
 .page-shadow3 .after2 {
   position: absolute;
-  top: 0px;
+  top: 30px;
   left: 0;
   width: 100% !important;
-  height: 100% !important;
+  height: 67% !important;
   color: #fff !important;
   display: block;
-  background: rgba(2, 46, 77, 0.7) !important;
+  background: rgba(2, 46, 77, 0.3) !important;
 
+  //   opacity: 0.5;
   mix-blend-mode: normal;
-
+  //   background-repeat: no-repeat;
+  //   background-size: cover;
   display: flex;
+  //   @media screen and (max-width: 620px) {
+  //     height: 75%;
+  //   }
 }

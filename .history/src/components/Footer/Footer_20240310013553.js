@@ -8,10 +8,7 @@ function Footer() {
           <div className="col-md-12 banner3 "> </div>
           <div className=" col-md-12 after2"></div>
           <center>
-            <div
-              className="col-md-6 prefooter-writeup {
-"
-            >
+            <div className="col-md-6 icon2">
               <h3>
                 ARE YOU A FAMILY BUSINESS LOOKING FOR HELP, SUPPORT, ADVICE, AND
                 NETWORKING OPPORTUNITIES?
@@ -22,7 +19,6 @@ function Footer() {
                 and a space where African Family Businesses gain the tools and
                 support they deserve.
               </p>
-              <button>READ MORE</button>
             </div>
           </center>
         </div>

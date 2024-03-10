@@ -25,7 +25,6 @@
       border: solid 1px #fff;
       padding: 5px 40px;
       width: 100%;
-      font-family: SoraR;
     }
     button {
       background: #a0a09f;
@@ -34,7 +33,6 @@
       padding: 5px;
       margin-top: 15px;
       border: none;
-      font-family: SoraR !important;
       &:hover {
         background: #fff;
       }
@@ -84,7 +82,7 @@
   background: url("../../assets/images/prefooter-img.webp");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: cover;
+  background-size: contain;
   @media screen and (max-width: 620px) {
     // height: 00px !important;
     margin-top: 40px;

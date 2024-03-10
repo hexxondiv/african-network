@@ -9,7 +9,7 @@ function Footer() {
           <div className=" col-md-12 after2"></div>
           <center>
             <div
-              className="col-md-6 prefooter-writeup {
+              className="col-md-6 .prefooter-writeup {
 "
             >
               <h3>
@@ -22,7 +22,6 @@ function Footer() {
                 and a space where African Family Businesses gain the tools and
                 support they deserve.
               </p>
-              <button>READ MORE</button>
             </div>
           </center>
         </div>

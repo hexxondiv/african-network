@@ -13,7 +13,7 @@
       margin: 15px;
     }
     li {
-      margin: 30px 20px;
+      margin: 30px 0px;
     }
   }
 
@@ -55,11 +55,8 @@
         color: #fff;
       }
       li {
-        margin: 20px 0px;
-        padding-top: 5px;
-        padding-bottom: 5px;
         &:hover {
-          background: #102242;
+          background: red;
         }
       }
     }

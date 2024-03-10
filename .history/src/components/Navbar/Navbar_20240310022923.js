@@ -24,7 +24,7 @@ export const Navbar = () => {
                 <button class="dropbtn">About</button>
                 <div className="dropdown-content ">
                   <div className="content2 ">
-                    <ul className="list-unstyled ">
+                    <ul className="list-unstyled">
                       <li>
                         {" "}
                         <Link to={"./welcome"}>Misson & Constitution</Link>
@@ -45,47 +45,15 @@ export const Navbar = () => {
             </li>
             <li className="list-inline-item">
               {" "}
-              <div className="dropdown ">
-                <button class="dropbtn">Get Involved</button>
-                <div className="dropdown-content ">
-                  <div className="content2 ">
-                    <ul className="list-unstyled ">
-                      <li>
-                        {" "}
-                        <Link to={"./welcome"}>Membership</Link>
-                      </li>
-                      <li>
-                        <Link to={"back-to-school"}>Conferences</Link>
-                      </li>
-                      <li>
-                        <Link to={"#"}>Jobs & Fellowships</Link>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
+              <NavLink to={""}>Get Involed</NavLink>
             </li>
 
             <li className="list-inline-item">
-              <div className="dropdown ">
-                <button class="dropbtn">Stay Informed</button>
-                <div className="dropdown-content ">
-                  <div className="content2 ">
-                    <ul className="list-unstyled ">
-                      <li>
-                        {" "}
-                        <Link to={"./welcome"}>News & Announcements</Link>
-                      </li>
-                      <li>
-                        <Link to={"back-to-school"}>Archives</Link>
-                      </li>
-                      <li>
-                        <Link to={"#"}>Publications</Link>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
+              <NavLink to={""}>Stay Informed</NavLink>
+            </li>
+            <li className="list-inline-item">
+              {" "}
+              <NavLink to={""}>Membership</NavLink>
             </li>
           </ul>
         </div>

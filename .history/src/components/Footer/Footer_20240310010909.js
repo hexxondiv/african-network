@@ -3,29 +3,15 @@ import "./footer.scss";
 function Footer() {
   return (
     <footer>
-      <div className="page-background">
-        <div className=" page-shadow3 header-wrapper">
-          <div className="col-md-12 banner3 "> </div>
-          <div className=" col-md-12 after2"></div>
-          <center>
-            <div
-              className="col-md-6 prefooter-writeup {
-"
-            >
-              <h3>
-                ARE YOU A FAMILY BUSINESS LOOKING FOR HELP, SUPPORT, ADVICE, AND
-                NETWORKING OPPORTUNITIES?
-              </h3>
-              <p>
-                African Family Firms was created by African Family Business
-                Owners for African Family Business Owners to establish a Voice
-                and a space where African Family Businesses gain the tools and
-                support they deserve.
-              </p>
-              <button>READ MORE</button>
-            </div>
-          </center>
-        </div>
+      <div className="prefooter-div">
+        <center>
+          <div className="col-md-6">
+            <h3>
+              ARE YOU A FAMILY BUSINESS LOOKING FOR HELP, SUPPORT, ADVICE, AND
+              NETWORKING OPPORTUNITIES?
+            </h3>
+          </div>
+        </center>
       </div>
       <div className="col-md-12 footer-div">
         <div className="col-md-8 offset-md-2 flexy">

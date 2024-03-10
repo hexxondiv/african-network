@@ -13,7 +13,7 @@
       margin: 15px;
     }
     li {
-      margin: 30px 20px;
+      margin: 30px 0px;
     }
   }
 
@@ -47,19 +47,15 @@
     border-bottom-right-radius: 7px;
     .content2 {
       width: 100%;
-      padding-left: 10px;
-      padding-right: 10px;
+      padding-left: 20px;
       text-align: left;
       font-weight: 100;
       a {
         color: #fff;
       }
       li {
-        margin: 20px 0px;
-        padding-top: 5px;
-        padding-bottom: 5px;
         &:hover {
-          background: #102242;
+          background: red;
         }
       }
     }

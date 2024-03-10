@@ -3,15 +3,12 @@ import "./footer.scss";
 function Footer() {
   return (
     <footer>
-      <div className="page-background">
-        <div className=" page-shadow3 header-wrapper">
+      <div className="prefooter-div page-background">
+        <div className=" page-shadow header-wrapper">
           <div className="col-md-12 banner3 "> </div>
-          <div className=" col-md-12 after2"></div>
+          <div className=" col-md-12 after"></div>
           <center>
-            <div
-              className="col-md-6 prefooter-writeup {
-"
-            >
+            <div className="col-md-6">
               <h3>
                 ARE YOU A FAMILY BUSINESS LOOKING FOR HELP, SUPPORT, ADVICE, AND
                 NETWORKING OPPORTUNITIES?
@@ -22,7 +19,6 @@ function Footer() {
                 and a space where African Family Businesses gain the tools and
                 support they deserve.
               </p>
-              <button>READ MORE</button>
             </div>
           </center>
         </div>

@@ -67,25 +67,11 @@ export const Navbar = () => {
             </li>
 
             <li className="list-inline-item">
-              <div className="dropdown ">
-                <button class="dropbtn">Stay Informed</button>
-                <div className="dropdown-content ">
-                  <div className="content2 ">
-                    <ul className="list-unstyled ">
-                      <li>
-                        {" "}
-                        <Link to={"./welcome"}>News & Announcements</Link>
-                      </li>
-                      <li>
-                        <Link to={"back-to-school"}>Archives</Link>
-                      </li>
-                      <li>
-                        <Link to={"#"}>Publications</Link>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
+              <NavLink to={""}>Stay Informed</NavLink>
+            </li>
+            <li className="list-inline-item">
+              {" "}
+              <NavLink to={""}>Membership</NavLink>
             </li>
           </ul>
         </div>

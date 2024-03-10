@@ -82,10 +82,17 @@ export const Navbar = () => {
                       <li>
                         <Link to={"#"}>Publications</Link>
                       </li>
+                      <li>
+                        <Link to={"#"}>Anti Harrassment Policy</Link>
+                      </li>
                     </ul>
                   </div>
                 </div>
               </div>
+            </li>
+            <li className="list-inline-item">
+              {" "}
+              <NavLink to={""}>Membership</NavLink>
             </li>
           </ul>
         </div>

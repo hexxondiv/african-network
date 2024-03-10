@@ -22,7 +22,6 @@ function Footer() {
                 and a space where African Family Businesses gain the tools and
                 support they deserve.
               </p>
-              <button>READ MORE</button>
             </div>
           </center>
         </div>
