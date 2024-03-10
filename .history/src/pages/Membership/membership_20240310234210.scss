@@ -1,0 +1,18 @@
+.membership-banner {
+  height: 600px;
+
+  width: 100%;
+
+  background: url("../../assets/images/membership.webp");
+  background-repeat: no-repeat;
+  //   background-attachment: fixed;
+  background-position: center;
+  background-size: contain;
+  @media screen and (max-width: 620px) {
+    // height: 00px !important;
+    margin-top: 40px;
+    margin-bottom: 100px !important;
+    transform: translateX(0%) translateY(0%);
+    object-fit: cover;
+  }
+}

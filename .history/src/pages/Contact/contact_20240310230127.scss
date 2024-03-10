@@ -1,0 +1,85 @@
+.contact-banner {
+  height: 600px;
+
+  width: 100%;
+
+  background: url("../../assets/images/contact.webp");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  @media screen and (max-width: 620px) {
+    // height: 00px !important;
+    margin-top: 40px;
+    margin-bottom: 100px !important;
+    transform: translateX(0%) translateY(0%);
+    object-fit: cover;
+  }
+}
+.contact-form {
+  h6 {
+    color: #2e4160;
+    font-size: 12px;
+    margin-top: 25px;
+    margin-bottom: 0px;
+  }
+  input,
+  textarea {
+    width: 100%;
+    background: #fff;
+    border: 1px solid #c9cac9;
+    box-shadow: inset 1px 1px 2px #c9cac9;
+    border-radius: 3px;
+    padding: 6px 13px;
+  }
+  input[type="text"]:focus {
+    background-color: rgb(239, 231, 231);
+
+    box-shadow: inset 2px 2px 4px #c9cac9;
+  }
+  textarea {
+    width: 100%;
+    min-height: 150px;
+  }
+  button {
+    background: rgba(11, 38, 65, 1);
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 40px;
+
+    &:hover {
+      background: rgba(11, 38, 65, 0.3);
+    }
+  }
+  select {
+    font-family: SoraR;
+  }
+}
+.contact-details {
+  background: #f3f3f3;
+  padding-top: 50px;
+  svg {
+    bottom: 0;
+    left: 0;
+
+    right: 0;
+    top: 0;
+    height: 50px;
+    margin-bottom: 30px;
+  }
+  .aizuI7 {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    fill: var(--fill);
+    fill-opacity: 0.1;
+    stroke: #000;
+    stroke-opacity: 1;
+    stroke-width: 7px;
+    filter: var(--drop-shadow, none);
+    opacity: var(--opacity);
+    transform: var(--flip);
+  }
+  .TcoJIb * {
+    vector-effect: non-scaling-stroke;
+  }
+}

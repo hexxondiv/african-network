@@ -1,0 +1,35 @@
+.mission-banner {
+  height: 700px;
+  // margin-bottom: 65px;
+  width: 100%;
+
+  background: url("../../assets/images/mission.webp");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: contain;
+  @media screen and (max-width: 620px) {
+    // height: 00px !important;
+    margin-top: 40px;
+    margin-bottom: 100px !important;
+    transform: translateX(0%) translateY(0%);
+    object-fit: cover;
+  }
+}
+.mission-shadow {
+  position: relative;
+}
+.mission-shadow .after {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+  color: #fff !important;
+  display: block;
+  background: rgba(2, 46, 77, 0.5) !important;
+
+  //   mix-blend-mode: normal;
+
+  display: flex;
+}

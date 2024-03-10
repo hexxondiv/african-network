@@ -1,0 +1,55 @@
+.membership-banner {
+  height: 600px;
+
+  width: 100%;
+
+  background: url("../../assets/images/membership.webp");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  @media screen and (max-width: 620px) {
+    // height: 00px !important;
+    margin-top: 40px;
+    margin-bottom: 100px !important;
+    transform: translateX(0%) translateY(0%);
+    object-fit: cover;
+  }
+}
+
+.membership-body {
+  svg {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 60px;
+    margin-bottom: 30px;
+    margin-top: 40px;
+  }
+  .aizuI7 {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 1);
+    fill: rgb(248, 143, 143);
+    fill-opacity: 0.1;
+    stroke: #000;
+    stroke-opacity: 1;
+    stroke-width: 3px;
+    filter: var(--drop-shadow, none);
+    opacity: var(--opacity);
+    transform: var(--flip);
+  }
+  a {
+    color: grey;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  .padd {
+    padding: 10px;
+    p {
+      font-size: 14px;
+      margin-top: 40px;
+    }
+  }
+}

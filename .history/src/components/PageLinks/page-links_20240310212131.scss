@@ -1,0 +1,14 @@
+.quick-links {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: rgb(224, 223, 223);
+  a {
+    color: #000;
+    text-decoration: none;
+    margin-right: 30px;
+    &:hover {
+      text-decoration: underline;
+      color: #2e4160;
+    }
+  }
+}
