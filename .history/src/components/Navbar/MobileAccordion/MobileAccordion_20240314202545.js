@@ -105,7 +105,7 @@ const MobileAccordion = () => {
             </ul>
           </Accordion.Body>
         </Accordion.Item>
-        <button className="register-btn2">Register</button>
+        <button className="register-btn">Register</button>
       </Accordion>
     </div>
   );

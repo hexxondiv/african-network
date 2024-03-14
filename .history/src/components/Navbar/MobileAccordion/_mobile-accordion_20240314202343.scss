@@ -3,7 +3,7 @@
 .mobile-accordion {
   width: 100%;
   margin: 0 !important;
-
+  margin-top: -16px !important;
   padding-bottom: 20px;
   padding-top: 20px;
   background-color: #2e4160;
@@ -59,20 +59,4 @@
     font-weight: 400 !important;
     line-height: 35px !important;
   }
-}
-.home-link {
-  padding: 15px 30px;
-  border: none !important;
-  font-size: 18px;
-}
-.register-btn2 {
-  background: transparent;
-  padding: 15px 30px;
-  border: none !important;
-  font-size: 18px;
-  color: #fff;
-}
-.accordion {
-  padding-top: 20px;
-  padding-bottom: 20px;
 }

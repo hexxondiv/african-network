@@ -19,9 +19,7 @@ const MobileAccordion = () => {
   // }, [location]);
   return (
     <div className="col-md-12 mobile-accordion ">
-      <NavLink to={"/"} className="home-link">
-        Home
-      </NavLink>
+      <NavLink to={"/"}>Home</NavLink>
       <Accordion>
         <Accordion.Item eventKey="0">
           <Accordion.Header>
@@ -105,7 +103,7 @@ const MobileAccordion = () => {
             </ul>
           </Accordion.Body>
         </Accordion.Item>
-        <button className="register-btn2">Register</button>
+        <button className="register-btn">Register</button>
       </Accordion>
     </div>
   );

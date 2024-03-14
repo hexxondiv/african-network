@@ -19,11 +19,13 @@ const MobileAccordion = () => {
   // }, [location]);
   return (
     <div className="col-md-12 mobile-accordion ">
-      <NavLink to={"/"} className="home-link">
-        Home
-      </NavLink>
       <Accordion>
         <Accordion.Item eventKey="0">
+          <Accordion.Header>
+            <NavLink to={"/"}>Home</NavLink>
+          </Accordion.Header>
+        </Accordion.Item>
+        <Accordion.Item eventKey="1">
           <Accordion.Header>
             <small>About</small>
           </Accordion.Header>
@@ -56,7 +58,7 @@ const MobileAccordion = () => {
           </Accordion.Body>
         </Accordion.Item>
 
-        <Accordion.Item eventKey="1">
+        <Accordion.Item eventKey="2">
           <Accordion.Header>
             <small>Get Involved</small>
           </Accordion.Header>
@@ -81,7 +83,7 @@ const MobileAccordion = () => {
           </Accordion.Body>
         </Accordion.Item>
 
-        <Accordion.Item eventKey="2">
+        <Accordion.Item eventKey="3">
           <Accordion.Header>
             <small>Stay Informed</small>
           </Accordion.Header>
@@ -105,7 +107,6 @@ const MobileAccordion = () => {
             </ul>
           </Accordion.Body>
         </Accordion.Item>
-        <button className="register-btn2">Register</button>
       </Accordion>
     </div>
   );
