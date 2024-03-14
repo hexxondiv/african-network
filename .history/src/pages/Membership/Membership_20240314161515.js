@@ -239,7 +239,7 @@ function Membership() {
         {" "}
         <div className="col-md-8 offset-md-2 flexy ">
           <div
-            className="col-md-6 mt5 no-margin"
+            className="col-md-6 mtt no-margin"
             style={{ paddingRight: "30px" }}
           >
             <center>
@@ -288,16 +288,16 @@ function Membership() {
               <button>JOIN ARND NOW</button>
             </center>
           </div>
-          <div className="col-md-6 mt5 ">
+          <div className="col-md-6 mtt ">
             <img src={Img1} width="100%" />
             <img src={Img2} width="100%" className="mt1" />
           </div>
         </div>
       </div>{" "}
-      <div className="peer mtt no-margin" id="peer">
+      <div className="peer mtt" id="peer">
         {" "}
         <div className="col-md-8 offset-md-2 flexy ">
-          <div className="col-md-6 padding-response">
+          <div className="col-md-6 " style={{ paddingRight: "30px" }}>
             <center>
               {" "}
               <h4>PEER FORUM GROUPS</h4>
@@ -343,7 +343,7 @@ function Membership() {
               <button>JOIN ARND NOW</button>
             </center>
           </div>
-          <div className="col-md-6 mt4 ">
+          <div className="col-md-6">
             <img src={Img3} width="100%" />
           </div>
         </div>
@@ -358,7 +358,7 @@ function Membership() {
               <button>JOIN ARND NOW</button>
             </center>
           </div>
-          <div className="col-md-6 mt4">
+          <div className="col-md-6">
             <img src={Img4} width="100%" />
           </div>
         </div>

@@ -294,10 +294,10 @@ function Membership() {
           </div>
         </div>
       </div>{" "}
-      <div className="peer mtt no-margin" id="peer">
+      <div className="peer mtt" id="peer">
         {" "}
         <div className="col-md-8 offset-md-2 flexy ">
-          <div className="col-md-6 padding-response">
+          <div className="col-md-6 ">
             <center>
               {" "}
               <h4>PEER FORUM GROUPS</h4>
@@ -343,7 +343,7 @@ function Membership() {
               <button>JOIN ARND NOW</button>
             </center>
           </div>
-          <div className="col-md-6 mt4 ">
+          <div className="col-md-6">
             <img src={Img3} width="100%" />
           </div>
         </div>
@@ -358,7 +358,7 @@ function Membership() {
               <button>JOIN ARND NOW</button>
             </center>
           </div>
-          <div className="col-md-6 mt4">
+          <div className="col-md-6">
             <img src={Img4} width="100%" />
           </div>
         </div>

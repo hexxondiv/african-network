@@ -343,7 +343,7 @@ function Membership() {
               <button>JOIN ARND NOW</button>
             </center>
           </div>
-          <div className="col-md-6 mt4 ">
+          <div className="col-md-6  ">
             <img src={Img3} width="100%" />
           </div>
         </div>
@@ -358,7 +358,7 @@ function Membership() {
               <button>JOIN ARND NOW</button>
             </center>
           </div>
-          <div className="col-md-6 mt4">
+          <div className="col-md-6">
             <img src={Img4} width="100%" />
           </div>
         </div>
