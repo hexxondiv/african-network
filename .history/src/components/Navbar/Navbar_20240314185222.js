@@ -67,7 +67,7 @@ export const Navbar = () => {
           scrollPosition >= 10 && scrollDirection < 0 ? "hide" : ""
         }`}
       >
-        <div className=" offset-md-2 flexy nav-inner  col-md-8">
+        <div className=" offset-md-2 flexy nav-inner">
           <div className="logo-div col-md-1">
             <Link to={"/"}>
               {" "}
@@ -151,7 +151,7 @@ export const Navbar = () => {
               </div>
             </li>
           </ul>
-          <button className="register-btn">Register</button>
+          <button>Register</button>
         </div>
       </div>
       <ul className="nav-links col-md-12 list-unstyled">

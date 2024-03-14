@@ -151,7 +151,7 @@ export const Navbar = () => {
               </div>
             </li>
           </ul>
-          <button className="register-btn">Register</button>
+          <NavLink className="register-btn">Register</NavLink>
         </div>
       </div>
       <ul className="nav-links col-md-12 list-unstyled">
