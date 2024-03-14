@@ -1,0 +1,290 @@
+$nav-links: about, products, media, contact us;
+.nav-main-container {
+  background: #fff;
+  padding-top: 3px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+  border-bottom: solid 1px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  top: 0px;
+  z-index: 2000;
+  transform: translateY(0);
+  // @media screen and (max-width: 620px) {
+  //   background: red !important;
+  // }
+  .nav-inner {
+    a {
+      color: #000;
+      text-decoration: none;
+      margin: 15px;
+    }
+    li {
+      margin: 10px 20px;
+    }
+    @media screen and (max-width: 620px) {
+      display: none;
+    }
+  }
+  &.home {
+    background: transparent !important;
+    .dropbtn {
+      color: #fff;
+    }
+    .home-btn {
+      color: #fff !important;
+    }
+  }
+  &.hide {
+    top: -130px;
+    // transform: translateY(-100%);
+  }
+  .dropbtn {
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    color: #000;
+    background: transparent;
+    font-family: SoraSB;
+    // margin-right: 25px;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #2f4263;
+    width: 260px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    animation: fadein 0.5s;
+    -webkit-animation: fadein 0.5s;
+    -moz-animation: fadein 0.5s;
+    -o-animation: fadein 0.5s;
+    -ms-animation: fadein 0.5s;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    .content2 {
+      width: 100%;
+      padding-left: 10px;
+      padding-right: 10px;
+      text-align: left;
+      font-weight: 100;
+      a {
+        color: #fff;
+      }
+      li {
+        margin: 20px 0px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        &:hover {
+          background: #102242;
+        }
+      }
+    }
+  }
+  @keyframes fadein {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  @-moz-keyframes fadein {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  @-webkit-keyframes fadein {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  @-o-keyframes fadein {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .dropdown:hover .dropbtn {
+    background-color: #2f4263;
+    color: #fff;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+  }
+}
+.home-btn {
+  color: #000 !important;
+  font-family: SoraSB !important;
+  font-size: 18px;
+}
+.mobile-menu {
+  @media screen and (min-width: 620px) {
+    display: none;
+  }
+  nav {
+    background-color: #2e4160;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    // height: 70px;
+  }
+  .nav-links {
+    display: block;
+    position: absolute;
+    padding: 0 !important;
+    margin: 0 !important;
+    // top: 60px;
+    left: 0;
+    width: 100%;
+    background: transparent;
+    z-index: 20000000;
+    // Dark overlay on open nav
+    &::before {
+      background: inherit;
+      content: "";
+      height: 100vh;
+      left: 0;
+      top: 0;
+      position: absolute;
+      opacity: 0;
+      visibility: hidden;
+      width: 100%;
+      transition: all 0.3s;
+    }
+    li {
+      opacity: 0;
+      visibility: hidden;
+      transform: translateY(-20px);
+      transition: all 0.3s;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+    }
+  }
+  input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    // Nav open styling - achieved with ':checked' selector
+    &:checked + label {
+      // margin-top: -30px;
+      left: 90% !important;
+      border: 4px solid silver;
+      border-radius: 50%;
+      height: 28px;
+      top: 16px;
+      left: 18px;
+      width: 28px;
+      transform: rotate(-135deg);
+      &::before {
+        background: silver;
+        top: 8px;
+        left: 4px;
+        width: 12px;
+      }
+      &::after {
+        background: #fff;
+        opacity: 1;
+        top: 8px;
+        left: 4px;
+        visibility: visible;
+        width: 12px;
+      }
+      &:hover {
+        border-color: #fff;
+        &::before,
+        &::after {
+          background: #fff;
+        }
+      }
+    }
+    &:checked ~ .nav-links {
+      &::before {
+        opacity: 1;
+        visibility: visible;
+      }
+      li {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+
+        @for $i from 1 through length($nav-links) {
+          &:nth-child(#{$i}) {
+            transition-delay: ($i - 1)/10 + s;
+          }
+        }
+      }
+    }
+  }
+
+  // Styling of the linked label element
+  label {
+    background: none transparent;
+    border: 4px solid #fff;
+    border-left: 0 solid transparent;
+    border-right: 0 solid transparent;
+    cursor: pointer;
+    display: block;
+    height: 24px;
+    position: absolute;
+    top: 18px;
+    left: 20px;
+    width: 24px;
+    transition: all 0.2s;
+    // margin-top: -30px;
+    left: 90% !important;
+    &::before {
+      background: #fff;
+      content: "";
+      height: 4px;
+      left: 0;
+      position: absolute;
+      top: 6px;
+      width: 24px;
+      transition: all 0.2s;
+    }
+    &::after {
+      background: coral;
+      content: "";
+      height: 4px;
+      left: 0;
+      position: absolute;
+      top: 6px;
+      opacity: 0;
+      visibility: hidden;
+      width: 100%;
+      transform: rotate(90deg);
+      transition: all 0.2s;
+    }
+  }
+}
+.mobile-logo {
+  // height: 30px !important;
+  width: 70px !important;
+  margin-top: -30px;
+}
+
+.hide-logo {
+  visibility: hidden;
+}
+.mobile-dropdown {
+  height: 300px;
+  background: green;
+  position: relative;
+  z-index: 10000;
+}

@@ -1,0 +1,20 @@
+.quick-links {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: rgb(224, 223, 223);
+  @media screen and (max-width: 620px) {
+    padding: 30px 20px;
+  }
+  a {
+    color: #000;
+    text-decoration: none;
+    margin-right: 30px;
+    @media screen and (max-width: 620px) {
+      margin-right: 20px;
+    }
+    &:hover {
+      text-decoration: underline;
+      color: #2e4160;
+    }
+  }
+}
