@@ -68,9 +68,15 @@
   color: #fff !important;
   display: block;
   background: rgba(2, 46, 77, 0.3);
-  mix-blend-mode: normal;
 
+  //   opacity: 0.5;
+  mix-blend-mode: normal;
+  //   background-repeat: no-repeat;
+  //   background-size: cover;
   display: flex;
+  //   @media screen and (max-width: 620px) {
+  //     height: 75%;
+  //   }
 }
 
 .zoominheader {

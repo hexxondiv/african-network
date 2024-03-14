@@ -52,7 +52,7 @@ export const MainNews = () => {
       </section>
       {data ? (
         <>
-          <div className="col-md-10 offset-md-2 flexy mtt mobile-padding">
+          <div className="col-md-10 offset-md-2 flexy mtt">
             <div className="col-md-8 ">
               {" "}
               <div
@@ -97,7 +97,7 @@ export const MainNews = () => {
               </div>
             </div>
 
-            <div className="col-md-2 offset-md-1 mobile-padding">
+            <div className="col-md-2 offset-md-1">
               <h3>Older News</h3>
               <div className="row row-cols-1 row-cols-lg-1">
                 {state.list.map((data, index) => (

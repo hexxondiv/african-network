@@ -47,12 +47,18 @@ export const MainNews = () => {
             <h1>
               <h1>NEWS DETAILS</h1>
             </h1>
+            <center className="flexy flexyM offset-md-5 mt5">
+              {" "}
+              <Link to={"/"} className="home-link">
+                HOME
+              </Link>
+            </center>
           </div>
         </div>
       </section>
       {data ? (
         <>
-          <div className="col-md-10 offset-md-2 flexy mtt mobile-padding">
+          <div className="col-md-10 offset-md-2 flexy mt">
             <div className="col-md-8 ">
               {" "}
               <div
@@ -97,7 +103,7 @@ export const MainNews = () => {
               </div>
             </div>
 
-            <div className="col-md-2 offset-md-1 mobile-padding">
+            <div className="col-md-2 offset-md-1">
               <h3>Older News</h3>
               <div className="row row-cols-1 row-cols-lg-1">
                 {state.list.map((data, index) => (

@@ -52,7 +52,7 @@ export const MainNews = () => {
       </section>
       {data ? (
         <>
-          <div className="col-md-10 offset-md-2 flexy mtt mobile-padding">
+          <div className="col-md-10 offset-md-2 flexy mtt">
             <div className="col-md-8 ">
               {" "}
               <div
