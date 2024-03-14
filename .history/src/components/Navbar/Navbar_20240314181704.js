@@ -154,9 +154,9 @@ export const Navbar = () => {
         </div>
       </div>
       <ul className="nav-links col-md-12 list-unstyled">
-        <div className="mobile-menu col-md-12 ">
+        <div className=" col-md-12 ">
           {" "}
-          <div className="nav-div">
+          <nav>
             <Link to={"/"}>
               {" "}
               <img
@@ -177,7 +177,7 @@ export const Navbar = () => {
                 <MobileAccordion />
               </li>
             </ul>
-          </div>
+          </nav>
         </div>
       </ul>
     </>

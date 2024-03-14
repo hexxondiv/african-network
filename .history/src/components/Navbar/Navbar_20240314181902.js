@@ -156,8 +156,8 @@ export const Navbar = () => {
       <ul className="nav-links col-md-12 list-unstyled">
         <div className="mobile-menu col-md-12 ">
           {" "}
-          <div className="nav-div">
-            <Link to={"/"}>
+          <nav>
+            <Link to={"/"} className={`  ${isHome ? "hide-logo" : ""}`}>
               {" "}
               <img
                 className="col-md-2 col-2 ml2 mobile-logo"
@@ -177,7 +177,7 @@ export const Navbar = () => {
                 <MobileAccordion />
               </li>
             </ul>
-          </div>
+          </nav>
         </div>
       </ul>
     </>

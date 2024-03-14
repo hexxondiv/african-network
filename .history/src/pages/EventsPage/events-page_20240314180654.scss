@@ -1,6 +1,12 @@
 @import "../../variables";
 @import "../../shared-styles";
 
+.read-more {
+  background: $primary;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+}
 .icon2 {
   position: absolute;
   top: 50%;
@@ -44,6 +50,7 @@
   @media screen and (max-width: 620px) {
     transform: translateX(0%) translateY(0%);
     object-fit: cover;
+    padding-top: 300px;
   }
 }
 

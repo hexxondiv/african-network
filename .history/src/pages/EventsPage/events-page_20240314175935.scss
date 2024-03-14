@@ -1,6 +1,12 @@
 @import "../../variables";
 @import "../../shared-styles";
 
+.read-more {
+  background: $primary;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+}
 .icon2 {
   position: absolute;
   top: 50%;
@@ -121,8 +127,8 @@
 }
 .mandate {
   margin-top: 0;
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 180px;
+  padding-bottom: 180px;
   background-image: url("../../assets/images/brown-bg.webp");
   background-repeat: no-repeat;
   background-size: cover;

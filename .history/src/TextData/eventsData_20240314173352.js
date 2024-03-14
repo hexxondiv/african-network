@@ -38,7 +38,7 @@ export const latestEvents = [
     id: 2,
   },
   {
-    eventsHeading: "Individual Fellowship 2021",
+    eventsHeading: "SUPPORT & NETWORKING",
     eventBanner: Img3,
     eventDate: "25 june 2023",
     view: "59",

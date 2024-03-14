@@ -156,14 +156,10 @@ export const Navbar = () => {
       <ul className="nav-links col-md-12 list-unstyled">
         <div className="mobile-menu col-md-12 ">
           {" "}
-          <div className="nav-div">
+          <nav>
             <Link to={"/"}>
               {" "}
-              <img
-                className="col-md-2 col-2 ml2 mobile-logo"
-                src={Logo}
-                alt="Scholar"
-              />
+              <img className="col-md-2 col-2 ml2 " src={Logo} alt="Scholar" />
             </Link>
             <input
               type="checkbox"
@@ -177,7 +173,7 @@ export const Navbar = () => {
                 <MobileAccordion />
               </li>
             </ul>
-          </div>
+          </nav>
         </div>
       </ul>
     </>

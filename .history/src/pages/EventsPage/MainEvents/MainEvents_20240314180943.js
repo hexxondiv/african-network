@@ -40,7 +40,7 @@ export const MainEvents = () => {
           <section className="col-md-12 flexy page-background ">
             <div className="col-md-12 page-shadow header-wrapper">
               <div className="col-md-12 banner2 zoominheader"> </div>
-              <div className=" col-md-12 after"></div>
+              <div className=" col-md-12 "></div>
               <div className="icon2 ">
                 <h1>{data.eventsHeading}</h1>
                 <center>

@@ -153,33 +153,7 @@ export const Navbar = () => {
           </ul>
         </div>
       </div>
-      <ul className="nav-links col-md-12 list-unstyled">
-        <div className="mobile-menu col-md-12 ">
-          {" "}
-          <div className="nav-div">
-            <Link to={"/"}>
-              {" "}
-              <img
-                className="col-md-2 col-2 ml2 mobile-logo"
-                src={Logo}
-                alt="Scholar"
-              />
-            </Link>
-            <input
-              type="checkbox"
-              id="hamburger1"
-              checked={showActive}
-              onChange={(e) => handleChange(e)}
-            />
-            <label for="hamburger1" className="buga"></label>
-            <ul className="nav-links col-md-12 list-unstyled">
-              <li>
-                <MobileAccordion />
-              </li>
-            </ul>
-          </div>
-        </div>
-      </ul>
+      <ul className="nav-links col-md-12 list-unstyled"></ul>
     </>
   );
 };

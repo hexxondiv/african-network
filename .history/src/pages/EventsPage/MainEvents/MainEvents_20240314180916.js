@@ -38,7 +38,7 @@ export const MainEvents = () => {
       {data ? (
         <>
           <section className="col-md-12 flexy page-background ">
-            <div className="col-md-12 page-shadow header-wrapper">
+            <div className="col-md-12  header-wrapper">
               <div className="col-md-12 banner2 zoominheader"> </div>
               <div className=" col-md-12 after"></div>
               <div className="icon2 ">

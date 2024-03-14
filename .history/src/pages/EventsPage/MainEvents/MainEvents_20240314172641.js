@@ -4,8 +4,6 @@ import { Events } from "../../../components/Events/Event";
 import { News } from "../../../components/News/News";
 import { latestEvents } from "../../../TextData/eventsData";
 import Dinner from "../../../assets/images/dinner.webp";
-import Icofont from "react-icofont";
-
 // import "../../research-group.scss";
 export const MainEvents = () => {
   const [data, setData] = useState({});
@@ -58,53 +56,13 @@ export const MainEvents = () => {
               </div>
             </center>
           </div>
-          <div className="col-md-12 event-showcase mobile-padding">
+          <div className="col-md-12 event-showcase">
             <div className="col-md-5 offset-md-4">
               {" "}
               <img src={data.eventBanner} width="100%" />
             </div>
           </div>
-          <div className="col-md-10 offset-md-1  news-body">
-            <h4>{data.eventsHeading}</h4>
-            <p>{data.eventDetail}</p>
-            <p>{data.moreDetails}</p>
-            <div className="flexy mt">
-              <ul
-                className="list-unstyled list-inline"
-                style={{ color: "grey", flexGrow: 1 }}
-              >
-                <li className="list-inline-item">
-                  <strong>Tag:</strong>
-                </li>
-                <li className="list-inline-item">{data.tag1},</li>
-                <li className="list-inline-item">{data.tag2},</li>
-                <li className="list-inline-item">{data.tag3},</li>
-                <li className="list-inline-item">{data.tag4},</li>
-              </ul>
-              <div className="register-link">
-                {" "}
-                <Link>Register</Link>
-              </div>
-              <ul className="list-unstyled list-inline share">
-                <li className="list-inline-item">
-                  <strong>Share:</strong>
-                </li>
-                <li className="list-inline-item">
-                  <i class="icofont-facebook"></i>
-                </li>
-                <li className="list-inline-item">
-                  <i class="icofont-twitter"></i>
-                </li>
-                <li className="list-inline-item">
-                  <i class="icofont-instagram"></i>
-                </li>
-                <li className="list-inline-item">
-                  <i class="icofont-linkedin"></i>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div className="col-md-10 offset-md-1 mt mobile-padding">
+          <div className="col-md-10 offset-md-1 mt">
             <h3>Older Events</h3>
             <div className="row row-cols-2 row-cols-lg-4">
               {state.list.map((data, index) => (

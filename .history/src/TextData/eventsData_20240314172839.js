@@ -6,7 +6,7 @@ import Img5 from "../assets/images/events6.jpg";
 import Img6 from "../assets/images/events7.jpeg";
 export const latestEvents = [
   {
-    eventsHeading: "African Network for Research and Development",
+    eventsHeading: "A DAY VIRTUAL WORKSHOP",
     eventBanner: Img1,
     eventDate: "25 june 2023",
     view: "59",
@@ -22,7 +22,7 @@ export const latestEvents = [
     id: 1,
   },
   {
-    eventsHeading: "2024 ISA Lecture Series",
+    eventsHeading: "FAMILY BUSINESS EMERGING LEADERS",
     eventBanner: Img2,
     eventDate: "25 june 2023",
     view: "59",
@@ -38,7 +38,7 @@ export const latestEvents = [
     id: 2,
   },
   {
-    eventsHeading: "Individual Fellowship 2021",
+    eventsHeading: "SUPPORT & NETWORKING",
     eventBanner: Img3,
     eventDate: "25 june 2023",
     view: "59",
@@ -77,22 +77,16 @@ export const latestEvents = [
     eventDate: "25 june 2023",
     view: "59",
     comment: "19",
-    eventDetail:
-      "Are you a business advisor? Are you interested in advising more familybusinesses? Become an AFF Accredited Adviser and set yourself apart as a specialist in the area of family business.",
-    moreDetails:
-      "Our seven research themes span the full range of research activities being carried out in the Laboratory and reflect national research priorities. Many themes cover the work of more than one research group, encouraging new associations and cross-disciplinary collaboration. While the core of our research programme is in experimental physics, essential theoretical support is provided by theorists embedded within the astrophysics and high energy physics research groups, while the condensed matter theory group are strongly cross-disciplinary and contribute to most of the themes shown above.",
+    eventDetail: "Researchers at the University of Port ...",
     id: 5,
   },
   {
-    eventsHeading: "Meet ANd Greet ",
+    eventsHeading: "Distinguished ",
     eventBanner: Img6,
     eventDate: "25 june 2023",
     view: "59",
     comment: "19",
-    eventDetail:
-      "Are you a business advisor? Are you interested in advising more familybusinesses? Become an AFF Accredited Adviser and set yourself apart as a specialist in the area of family business.",
-    moreDetails:
-      "Our seven research themes span the full range of research activities being carried out in the Laboratory and reflect national research priorities. Many themes cover the work of more than one research group, encouraging new associations and cross-disciplinary collaboration. While the core of our research programme is in experimental physics, essential theoretical support is provided by theorists embedded within the astrophysics and high energy physics research groups, while the condensed matter theory group are strongly cross-disciplinary and contribute to most of the themes shown above.",
+    eventDetail: " The department is delighted to welcome  ",
     id: 6,
   },
   // {

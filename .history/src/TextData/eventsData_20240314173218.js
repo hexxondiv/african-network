@@ -6,7 +6,7 @@ import Img5 from "../assets/images/events6.jpg";
 import Img6 from "../assets/images/events7.jpeg";
 export const latestEvents = [
   {
-    eventsHeading: "African Network for Research and Development",
+    eventsHeading: "A DAY VIRTUAL WORKSHOP",
     eventBanner: Img1,
     eventDate: "25 june 2023",
     view: "59",
@@ -22,7 +22,7 @@ export const latestEvents = [
     id: 1,
   },
   {
-    eventsHeading: "2024 ISA Lecture Series",
+    eventsHeading: "FAMILY BUSINESS EMERGING LEADERS",
     eventBanner: Img2,
     eventDate: "25 june 2023",
     view: "59",
@@ -38,7 +38,7 @@ export const latestEvents = [
     id: 2,
   },
   {
-    eventsHeading: "Individual Fellowship 2021",
+    eventsHeading: "SUPPORT & NETWORKING",
     eventBanner: Img3,
     eventDate: "25 june 2023",
     view: "59",

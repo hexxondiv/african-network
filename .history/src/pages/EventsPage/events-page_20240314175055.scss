@@ -1,6 +1,18 @@
 @import "../../variables";
 @import "../../shared-styles";
 
+.news-component {
+  margin-top: 30px;
+  h4 {
+    margin: 20px;
+  }
+}
+.read-more {
+  background: $primary;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+}
 .icon2 {
   position: absolute;
   top: 50%;
@@ -42,6 +54,9 @@
   background-size: cover;
   background-position: center center;
   @media screen and (max-width: 620px) {
+    // height: 00px !important;
+    margin-top: 40px;
+    margin-bottom: 100px !important;
     transform: translateX(0%) translateY(0%);
     object-fit: cover;
   }
@@ -109,7 +124,6 @@
 .news-body {
   background: #f6f6f6;
   padding: 30px;
-  margin-top: 90px;
 }
 .share {
   li {
@@ -121,8 +135,8 @@
 }
 .mandate {
   margin-top: 0;
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 180px;
+  padding-bottom: 180px;
   background-image: url("../../assets/images/brown-bg.webp");
   background-repeat: no-repeat;
   background-size: cover;
@@ -131,13 +145,6 @@
     font-size: 80px;
     color: #012646;
     font-family: SoraB;
-    @media screen and (max-width: 620px) {
-      font-size: 40px;
-    }
-  }
-  @media screen and (max-width: 620px) {
-    padding-top: 80px;
-    padding-bottom: 80px;
   }
 }
 .event-showcase {

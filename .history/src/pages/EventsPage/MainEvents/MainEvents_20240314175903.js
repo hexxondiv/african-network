@@ -64,7 +64,7 @@ export const MainEvents = () => {
               <img src={data.eventBanner} width="100%" />
             </div>
           </div>
-          <div className="col-md-10 offset-md-1  news-body">
+          <div className="col-md-10 offset-md-1 mt  news-body">
             <h4>{data.eventsHeading}</h4>
             <p>{data.eventDetail}</p>
             <p>{data.moreDetails}</p>

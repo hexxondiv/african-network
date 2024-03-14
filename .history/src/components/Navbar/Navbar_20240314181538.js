@@ -67,7 +67,7 @@ export const Navbar = () => {
           scrollPosition >= 10 && scrollDirection < 0 ? "hide" : ""
         }`}
       >
-        <div className=" offset-md-2 flexy nav-inner">
+        <div className=" offset-md-2 flexy r">
           <div className="logo-div col-md-1">
             <Link to={"/"}>
               {" "}
@@ -156,7 +156,7 @@ export const Navbar = () => {
       <ul className="nav-links col-md-12 list-unstyled">
         <div className="mobile-menu col-md-12 ">
           {" "}
-          <div className="nav-div">
+          <nav>
             <Link to={"/"}>
               {" "}
               <img
@@ -177,7 +177,7 @@ export const Navbar = () => {
                 <MobileAccordion />
               </li>
             </ul>
-          </div>
+          </nav>
         </div>
       </ul>
     </>

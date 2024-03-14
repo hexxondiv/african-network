@@ -156,7 +156,7 @@ export const Navbar = () => {
       <ul className="nav-links col-md-12 list-unstyled">
         <div className="mobile-menu col-md-12 ">
           {" "}
-          <div className="nav-div">
+          <nav>
             <Link to={"/"}>
               {" "}
               <img
@@ -172,12 +172,8 @@ export const Navbar = () => {
               onChange={(e) => handleChange(e)}
             />
             <label for="hamburger1" className="buga"></label>
-            <ul className="nav-links col-md-12 list-unstyled">
-              <li>
-                <MobileAccordion />
-              </li>
-            </ul>
-          </div>
+            <ul className="nav-links col-md-12 list-unstyled"></ul>
+          </nav>
         </div>
       </ul>
     </>
