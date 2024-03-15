@@ -12,8 +12,6 @@ import { latestNews } from "../../TextData";
 import "./home.scss";
 import { Events } from "../../components/Events/Event";
 import { latestEvents } from "../../TextData/eventsData";
-import Ratio from "react-bootstrap/Ratio";
-
 export const Home = () => {
   const [index, setIndex] = useState(0);
 
@@ -226,21 +224,18 @@ export const Home = () => {
           </div>
         </div>
       </div>
-      <div className="youtube-video">
-        {" "}
-        <div className="col-md-8 offset-md-2 mt4 mobile-padding ">
-          <Ratio aspectRatio={50}>
-            <iframe
-              width="1190"
-              height="669"
-              src="https://www.youtube.com/embed/37-IJqDdOFI"
-              title="African Development Network"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
-            ></iframe>
-          </Ratio>
-        </div>
+      <div className="col-md-8 offset-md-2 mt4 mobile-padding">
+        <Ratio aspectRatio={50}>
+          <iframe
+            width="1190"
+            height="669"
+            src="https://www.youtube.com/embed/37-IJqDdOFI"
+            title="African Development Network"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </Ratio>
       </div>
       <center>
         <div className="col-md-6 mt mobile-padding">

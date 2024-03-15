@@ -226,21 +226,18 @@ export const Home = () => {
           </div>
         </div>
       </div>
-      <div className="youtube-video">
-        {" "}
-        <div className="col-md-8 offset-md-2 mt4 mobile-padding ">
-          <Ratio aspectRatio={50}>
-            <iframe
-              width="1190"
-              height="669"
-              src="https://www.youtube.com/embed/37-IJqDdOFI"
-              title="African Development Network"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
-            ></iframe>
-          </Ratio>
-        </div>
+      <div className="col-md-8 offset-md-2 mt4 mobile-padding youtube-video">
+        <Ratio aspectRatio={50}>
+          <iframe
+            width="1190"
+            height="669"
+            src="https://www.youtube.com/embed/37-IJqDdOFI"
+            title="African Development Network"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </Ratio>
       </div>
       <center>
         <div className="col-md-6 mt mobile-padding">
