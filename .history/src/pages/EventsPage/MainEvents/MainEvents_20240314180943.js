@@ -99,7 +99,7 @@ export const MainEvents = () => {
                   <i class="icofont-instagram"></i>
                 </li>
                 <li className="list-inline-item">
-                  <i class="icofont-linkedin"></i>
+                  <i class="font-linkedin"></i>
                 </li>
               </ul>
             </div>
