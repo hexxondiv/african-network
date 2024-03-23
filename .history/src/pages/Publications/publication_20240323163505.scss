@@ -1,0 +1,46 @@
+.journal-banner {
+  height: 600px;
+
+  width: 100%;
+
+  background: url("../../assets/images/sample1.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  @media screen and (max-width: 620px) {
+    // margin-bottom: 100px !important;
+    transform: translateX(0%) translateY(0%);
+    object-fit: cover;
+  }
+}
+.journal-title {
+  h2 {
+    color: #f1f507;
+  }
+}
+.bread-crumb {
+  p {
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  a {
+    color: #000;
+    font-family: SoraR;
+    text-decoration: none;
+    margin-right: 10px;
+    &:hover {
+      color: rgb(8, 8, 161);
+      text-decoration: underline;
+    }
+  }
+}
+.journal-details {
+  a {
+    color: rgb(11, 94, 94);
+    font-family: SoraM;
+  }
+  h6 {
+    margin-top: 30px;
+  }
+}

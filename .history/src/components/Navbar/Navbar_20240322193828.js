@@ -146,9 +146,7 @@ export const Navbar = () => {
                         <div className="dropdown2">
                           <button className="dropbtn2">Publications</button>
                           <div className="dropdown-content2">
-                            <Link to={"/journal-of-edu"}>
-                              Journal of Ag Education
-                            </Link>
+                            <Link to={"/journal"}>Journal of Ag Education</Link>
                             <Link to={"/journal"}>
                               National Research Value Statements
                             </Link>
