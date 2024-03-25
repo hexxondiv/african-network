@@ -131,7 +131,7 @@ const MobileAccordion = () => {
             </ul>
           </Accordion.Body>
         </Accordion.Item>
-        <NavLink to={"/join-us"}>
+        <NavLink to={"/join"}>
           {" "}
           <button className="register-btn2">Register</button>
         </NavLink>

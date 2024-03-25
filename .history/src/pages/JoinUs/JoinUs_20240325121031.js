@@ -123,7 +123,7 @@ export const JoinUs = () => {
           </small>
           <input type="email" className="col-md-9" />
         </div>{" "}
-        <div className="flexy  mt2">
+        <div className="flexy flexyM mt2">
           <small className="col-md-3">
             <span>*</span> Last Name
           </small>
@@ -139,57 +139,57 @@ export const JoinUs = () => {
             <option>Mrs</option>
           </select>
         </div>{" "}
-        <div className="flexy mt2">
+        <div className="flexy flexyM mt2">
           <small className="col-md-3">College</small>
           <input type="email" className="col-md-9" />
         </div>{" "}
-        <div className="flexy mt3">
+        <div className="flexy flexyM mt3">
           <small className="col-md-3">Department</small>
           <input type="email" className="col-md-9" />
         </div>{" "}
-        <div className="flexy  mt2">
+        <div className="flexy flexyM mt2">
           <small className="col-md-3">Address</small>
           <textarea className="col-md-9" />
         </div>
-        <div className="flexy  mt2">
+        <div className="flexy flexyM mt2">
           <small className="col-md-3">City</small>
           <input type="email" className="col-md-9" />
         </div>{" "}
-        <div className="flexy mt2">
+        <div className="flexy flexyM mt2">
           <small className="col-md-3">State</small>
           <input type="email" className="col-md-9" />
         </div>{" "}
-        <div className="flexy mt2">
+        <div className="flexy flexyM mt2">
           <small className="col-md-3">Zip Code</small>
           <input type="email" className="col-md-9" />
         </div>{" "}
-        <div className="flexy  mt2">
+        <div className="flexy flexyM mt2">
           <small className="col-md-3">Phone</small>
           <input type="tel" className="col-md-9" />
         </div>{" "}
-        <div className="flexy mt2">
+        <div className="flexy flexyM mt2">
           <small className="col-md-3">url</small>
           <input type="text" className="col-md-9" />
         </div>{" "}
-        <div className="flexy  mt2">
+        <div className="flexy flexyM mt2">
           <small className="col-md-3">Photo</small>
           <input type="file" className="col-md-9" />
         </div>{" "}
-        <div className="flexy  mt2">
+        <div className="flexy flexyM mt2">
           <small className="col-md-3">Research Area</small>
           <input type="text" className="col-md-9" />
         </div>{" "}
-        <div className="flexy mt2">
+        <div className="flexy flexyM mt2">
           <small className="col-md-3">Research Area 2</small>
           <input type="text" className="col-md-9" />
         </div>{" "}
-        <div className="flexy mt2  offset-md-1">
+        <div className="flexy flexyM mt2  offset-md-1">
           <small className="col-md-3">
             <span>*</span>Name
           </small>
           <input type="text" className="col-md-8" />
         </div>{" "}
-        <div className="flexy  mt2">
+        <div className="flexy flexyM mt2">
           <small className="col-md-3">Institution Affiliation</small>
           <input type="text" className="col-md-9" />
         </div>{" "}

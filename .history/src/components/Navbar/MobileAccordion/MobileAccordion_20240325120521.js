@@ -98,14 +98,14 @@ const MobileAccordion = () => {
                 </Link>
               </li>
               <li>
-                <Accordion.Item eventKey="2">
+                <Accordion.Item eventKey="1">
                   <Accordion.Header>
                     <small>Publications</small>
                   </Accordion.Header>
                   <Accordion.Body>
                     <ul className="list-unstyled">
                       <li>
-                        <Link to={"/journal-of-edu"} className="mobile-navs">
+                        <Link to={"/membership"} className="mobile-navs">
                           Journal of Ag Education
                         </Link>
                       </li>{" "}
@@ -121,7 +121,7 @@ const MobileAccordion = () => {
                       </li>{" "}
                       <li>
                         <Link to={"/jobs"} className="mobile-navs">
-                          Journal of Banking & Finance
+                          Journal of Education Statistics
                         </Link>
                       </li>{" "}
                     </ul>
@@ -131,10 +131,7 @@ const MobileAccordion = () => {
             </ul>
           </Accordion.Body>
         </Accordion.Item>
-        <NavLink to={"/join-us"}>
-          {" "}
-          <button className="register-btn2">Register</button>
-        </NavLink>
+        <button className="register-btn2">Register</button>
       </Accordion>
     </div>
   );

@@ -105,7 +105,7 @@ const MobileAccordion = () => {
                   <Accordion.Body>
                     <ul className="list-unstyled">
                       <li>
-                        <Link to={"/journal-of-edu"} className="mobile-navs">
+                        <Link to={"/membership"} className="mobile-navs">
                           Journal of Ag Education
                         </Link>
                       </li>{" "}
@@ -131,10 +131,7 @@ const MobileAccordion = () => {
             </ul>
           </Accordion.Body>
         </Accordion.Item>
-        <NavLink to={"/join-us"}>
-          {" "}
-          <button className="register-btn2">Register</button>
-        </NavLink>
+        <button className="register-btn2">Register</button>
       </Accordion>
     </div>
   );
