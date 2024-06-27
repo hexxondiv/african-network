@@ -28,7 +28,7 @@ export const JoinUs = () => {
           <div className="flexy flexyM">
             <input type="radio" />
             <div>
-              <h6>Active - $150.00 (USD)</h6>
+              <h6>Active - &#8358; 5,000.00 (NGN)</h6>
               <p>
                 Subscription period: 1 year, on: January 1st No automatically
                 recurring payments Active Membership is open to all individuals
@@ -39,22 +39,7 @@ export const JoinUs = () => {
               </p>
             </div>
           </div>
-          <div className="flexy flexyM">
-            <input type="radio" />
-            <div>
-              <h6>Associate - $50.00 (USD)</h6>
-              <p>
-                Subscription period: 1 year, on: January 1st No automatically
-                recurring payments Associate Membership is open to individuals
-                who work with agricultural education related organizations such
-                as the National Association of Agricultural Educators (NAAE),
-                the National Association of Supervisors of Agricultural
-                Education (NASAE), the National FFA Organization, career and
-                technical education organizations, or others who wish to support
-                the AAAE.
-              </p>
-            </div>
-          </div>
+         
           <div className="flexy flexyM">
             <input type="radio" />
             <div>
@@ -75,12 +60,11 @@ export const JoinUs = () => {
           <div className="flexy flexyM">
             <input type="radio" />
             <div>
-              <h6>Student - $30.00 (USD)</h6>
+              <h6>Student - &#8358;3,000 (NGN)</h6>
               <p>
                 Subscription period: 1 year, on: January 1st No automatically
                 recurring payments Student Membership is open to undergraduate
-                and graduate students studying for careers in agricultural
-                education, agricultural communications, agricultural leadership,
+                and graduate students studying for careers in education, communications, leadership,
                 extension education or closely related fields. Student Members
                 are eligible to attend and participate in discussion of AAAE
                 business, however they are not eligible to vote or hold office.
@@ -224,7 +208,7 @@ export const JoinUs = () => {
       </div>
       <PageLinks />
       <div className="col-md-8 offset-md-2 mt7 join-us-div mobile-padding">
-        <h1>Join ANRD</h1>
+        <h1>Join UEAD</h1>
         <p>
           Full access to the Journal of Agricultural Education is available to
           paid AAAE members. The JAE is now published in PDF format. Individual
@@ -233,24 +217,24 @@ export const JoinUs = () => {
           Journal is also indexed by EBSCO.
         </p>
         <p>
-          More information about the ANRD can be found{" "}
+          More information about the UEAD can be found{" "}
           <Link to={"/who-we-are"}>HERE</Link>
         </p>
         <p>
-          Usernames and passwords for the JAE are created from the ANRD
+          Usernames and passwords for the JAE are created from the UEAD
           membership roster and may take up to two weeks to be activated.
         </p>
         <p>
           Membership questions should be addressed to the
-          <Link> ANRD Association Manager.</Link>
+          <Link> UEAD Association Manager.</Link>
         </p>
         <p>
           Lost passwords can be retrieved from the{" "}
-          <Link>http://anrd-online.org/</Link> site using your email address.
+          <Link>http://UEAD-online.org/</Link> site using your email address.
         </p>
         <p>
           For questions about this system please contact the{" "}
-          <Link>ANRD Editor</Link>
+          <Link>UEAD Editor</Link>
         </p>
 
         {/* <div className="flexy membership-level">

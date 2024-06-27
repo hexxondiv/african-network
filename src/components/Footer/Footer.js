@@ -14,14 +14,10 @@ function Footer() {
 "
             >
               <h3>
-                ARE YOU A FAMILY BUSINESS LOOKING FOR HELP, SUPPORT, ADVICE, AND
-                NETWORKING OPPORTUNITIES?
+                "I am an African."
               </h3>
               <p>
-                African Network for Research and Development was created by
-                African Family Business Owners for African Family Business
-                Owners to establish a Voice and a space where African Family
-                Businesses gain the tools and support they deserve.
+              Empowering Africa through Identity, Education, and Innovation.
               </p>
               <Link to={"/join-us"}>
                 {" "}
@@ -36,18 +32,16 @@ function Footer() {
           <div className="col-md-3 padd">
             <h3>ABOUT US</h3>
             <p>
-              At African Family Firms (AFF) our purpose is to help African
-              family business succeed. Our programs and products are developed
-              to build stronger families and healthier businesses.
+              At UEAD, we are driven by a deep commitment to redefining what it means to be African in the modern world. Our mission is to rethink our African identity, re-educate ourselves, and reclaim Africa's intellectual future through dedicated research, comprehensive education, and robust networking.
             </p>
           </div>
           <div className="col-md-4 padd">
             <h3>ADDRESS</h3>
-            <p>+263773397495 / +263772448876</p>
-            <h6>SADC region</h6>
-            <p>+2348101853101 ECOWAS region</p>
-            <p>Harare, Lagos, Johannesburg, Capetown, Nairobi, Lusaka</p>
-            <a>admin@africanfamilyfirms.org</a>
+            <p>ECOWAS region</p>
+
+            <p>+2348034232630 / +2348068122576</p>
+            <p>Swaziland, Lagos, Johannesburg, Capetown, Nairobi, Lusaka</p>
+            <a>admin@uead.org</a>
           </div>
           <div className="col-md-5">
             <div className="col-md-10 offset-md-1 email-div">
@@ -58,9 +52,10 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div className="credits">
-        <p className="offset-md-2">© 2023 by Hexxondiv Global Services.</p>
-      </div>
+      <center className="credits">
+        <div className="col-md-4">© UEAD 2024</div>
+        <div className="col-md-4">by <Link className="text-light" target="_blank" to={"https://www.hexxondiv.com"}>Hexxondiv Global Services</Link></div>
+      </center>
     </footer>
   );
 }

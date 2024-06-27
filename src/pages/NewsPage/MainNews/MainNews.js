@@ -31,28 +31,16 @@ export const MainNews = () => {
 
   return (
     <>
-      {/* <div className="col-md-12 news-container">
-        <Link to={"/news-page"} className="offset-md-1 blog-link2">
-          <i class="icofont-arrow-left"></i>Back
-        </Link>
-        <center>
-          <h1 className="mt8">NEWS DETAILS</h1>
-        </center>
-      </div>{" "} */}
       <section className="col-md-12 flexy page-background ">
-        <div className="col-md-12 page-shadow header-wrapper">
-          <div className="col-md-12 banner zoominheader"> </div>
-          <div className=" col-md-12 after"></div>
-          <div className="icon ">
-            <h1>
-              <h1>NEWS DETAILS</h1>
-            </h1>
-          </div>
+        <div className="col-md-12 header-wrapper">
+          <center><div className="col-md-12 banner zoominheader">
+            <h1>NEWS DETAILS</h1>
+          </div></center>
         </div>
       </section>
       {data ? (
         <>
-          <div className="col-md-10 offset-md-2 flexy mtt mobile-padding">
+          <div className="col-md-10 offset-md-2 flexy mobile-padding">
             <div className="col-md-8 ">
               {" "}
               <div

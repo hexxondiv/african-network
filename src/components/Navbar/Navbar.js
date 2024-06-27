@@ -131,36 +131,20 @@ export const Navbar = () => {
 
             <li className="list-inline-item">
               <div className="dropdown ">
-                <button class="dropbtn">Stay Informed</button>
+                <button class="dropbtn">Publications</button>
                 <div className="dropdown-content ">
                   <div className="content2 ">
                     <ul className="list-unstyled ">
                       <li>
+                      <Link to={"/journal-of-edu"}>
+                              UEAD Journal
+                            </Link>
+                      </li> 
+                      <li>
                         {" "}
                         <Link to={"/news-page"}>News & Announcements</Link>
                       </li>
-                      <li>
-                        <Link to={"back-to-school"}>Archives</Link>
-                      </li>
-                      <li>
-                        <div className="dropdown2">
-                          <button className="dropbtn2">Publications</button>
-                          <div className="dropdown-content2">
-                            <Link to={"/journal-of-edu"}>
-                              Journal of Ag Education
-                            </Link>
-                            <Link to={"/journal"}>
-                              National Research Value Statements
-                            </Link>
-                            <Link to={"/journal"}>
-                              Journal of Education Statistics
-                            </Link>
-                            <Link to={"/journal"}>
-                              Journal of Banking and Finance
-                            </Link>
-                          </div>
-                        </div>
-                      </li>
+                     
                     </ul>
                   </div>
                 </div>

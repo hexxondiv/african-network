@@ -6,7 +6,7 @@ import Img5 from "../assets/images/events6.jpg";
 import Img6 from "../assets/images/events7.jpeg";
 export const latestEvents = [
   {
-    eventsHeading: "African Network for Research and Development",
+    eventsHeading: "Ubuntu and Education for African Development",
     eventBanner: Img1,
     eventDate: "25 june 2023",
     view: "59",

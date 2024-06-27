@@ -23,10 +23,10 @@ const WhoWeAre = () => {
       </div>
       <PageLinks />
       <div className="col-md-8 offset-md-2 mt about-us mobile-padding">
-        <h6>Name: African Network for Research and Development</h6>
+        <h6>Name: Ubuntu and Education for African Development Association UEAD</h6>
         <h6>Background and Focus:</h6>
         <p>
-          <strong>African Network for Research and Development</strong> is an
+          <strong>Ubuntu and Education for African Development</strong> is an
           international group of scholars interested in Africa’s development. It
           is organized in a network whose intention is to promote, disseminate,
           and stimulate high quality research in economic, management, and
@@ -34,8 +34,8 @@ const WhoWeAre = () => {
         </p>
         <p>
           The seeds of Managing{" "}
-          <strong>African Network for Research and Development</strong> were
-          planted by Professor John Kuada during the 5th Aalborg University
+          <strong>Ubuntu and Education for African Development</strong> were
+          planted by Professor Vincent Asogwa during the 5th Aalborg University
           Conference whose theme was Finding Solutions to the New Challenges of
           Internationalization held at Comwell Rebild Bakker, Aalborg-Denmark
           4-6 June 2014. It was agreed by the inaugural group that there is lack
@@ -54,11 +54,11 @@ const WhoWeAre = () => {
           management and development.
         </p>
         <p>
-          <strong>African Network for Research and Development Vision:</strong>
+          <strong>UEAD Vision: </strong>
           Leading catalyst for Africa research, publication and application.
         </p>
         <p>
-          <strong> Managing African Research Network Mission:</strong>{" "}
+          <strong>UEAD Mission: </strong>{" "}
           facilitate research, publish scholarly articles, and stimulate
           creativity, innovation and application in Africa based organisations
           to foster socio economic change for the betterment of all.
@@ -74,16 +74,14 @@ const WhoWeAre = () => {
             Mutual respect is important because my humanity is bound up with
             yours.
           </li>
-          <li>The whole affects the part as much as the part a</li>
-          <li>fects the whole.</li>
+          <li>The whole affects the part as much as the part affects the whole.</li>
         </ul>
         <h4>Operating Principles</h4>
         <h5>As a result of our guiding philosophy we will:</h5>
         <ul>
           <li>Be open and honest.</li>
-        </ul>
-        <h4>Respect confidentiality.</h4>
-        <ul>
+          <li>Respect confidentiality.</li>
+
           <li>Manage agreements.</li>
           <li>Maintain a supportive environment.</li>
           <li>Be self-monitoring.</li>

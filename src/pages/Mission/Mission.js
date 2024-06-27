@@ -2,7 +2,8 @@ import React from "react";
 import { Link, NavLink } from "react-router-dom";
 import "./mission.scss";
 import Img1 from "../../assets/images/consti.webp";
-import Img2 from "../../assets/images/const2.webp";
+import Img2 from "../../assets/images/constitution.jpg";
+import Constitution from "../../assets/docs/uead_constitution.pdf";
 import PageLinks from "../../components/PageLinks/PageLinks";
 
 const Mission = () => {
@@ -30,20 +31,10 @@ const Mission = () => {
           {" "}
           <h3>Mission Statement</h3>
           <p>
-            The Association for the Study of the Worldwide African Diaspora
-            (ANRD) is a not-for-profit, tax deductible organization of
-            international scholars seeking to further our understanding of
-            Africa and the African Diaspora, that is, the dispersal of people of
-            African descent throughout the world. Through the examination of
-            history, dance, anthropology, literature, women's studies,
-            education, geology, political science, sociology, language, art,
-            music, film, theater, biology, photography, etc., we seek to share
-            the most recent research both within and across disciplinary and
-            other conventional boundaries. We seek to do this by way of
-            conferences and symposia held periodically, as well as through
-            publications. In addition, we look for ways to share our work with
+            At Ubuntu and Education for African Development Association (UEAD), our mission is to rethink our African identity, re-educate ourselves, and reclaim Africa's intellectual future. Through dedicated research, comprehensive education, and robust networking, we empower individuals and communities to embrace their heritage, protect their innovations, and contribute to a prosperous and respected global African presence.
+            In addition, we look for ways to share our work with
             students and the general community. All who share such interests are
-            welcome to join ANRD.
+            welcome to join UEAD.
           </p>
         </div>
         <div className="col-md-6 offset-md-1 mt6">
@@ -65,11 +56,11 @@ const Mission = () => {
         <div className="col-md-5 offset-md-1 mt4">
           {" "}
           <h3>
-            The Constitution of African Network for Research and Development
+            The Constitution of Ubuntu and Education for African Development
           </h3>
           <p>
-            The Association for the Study of the Worldwide African Diaspora
-            (ANRD) is a not-for-profit, tax deductible organization of
+            Ubuntu and Education for African Development Association
+            (UEAD) is a not-for-profit, tax deductible organization of
             international scholars seeking to further our understanding of
             Africa and the African Diaspora.
           </p>
@@ -94,7 +85,7 @@ const Mission = () => {
             persons, including: a President, a Vice-President, a Secretary, and
             Treasurer.
           </p>
-          <Link to={"/"}>Read More</Link>
+          <Link to={Constitution} target="_blank">Read More</Link>
         </div>
       </div>
       <div className="col-md-8 offset-md-2 flexy mt8 mission-body mobile-padding">
@@ -102,7 +93,7 @@ const Mission = () => {
           {" "}
           <h3>Our Vision</h3>
           <p>
-            At the African Network for Research and Development, our vision
+            At the Ubuntu and Education for African Development, our vision
             transcends borders and barriers, igniting a continent-wide flame of
             innovation and progress. We envision a future where African
             brilliance shines brightly on the global stage, where research and
@@ -131,28 +122,15 @@ const Mission = () => {
         </div>
         <div className="col-md-5 offset-md-1">
           {" "}
-          <h3>SUPPORT & NETWORKING</h3>
-          <p>
-            We actively support family businesses on their journey to
-            multigenerational success by understanding their needs, providing
-            them with relevant learning and connecting them with fellow business
-            owners and advisors. We work closely with families and senior
-            managers to understand the needs and challenges that are unique to
-            family businesses. Our understanding of family businesses allows us
-            to guide each member business to the learning pathway that is most
-            relevant to them and their family journey.
-          </p>
-          <p>
-            The support family businesses can get in our community is key to
-            help them solve important challenges and remain successful across
-            the generations. Connections have always been at the heart of our
-            work. They were the reason AFF was founded and will continue to be a
-            pillar of what we do to support family businesses to thrive.
-            Families often feel they are going through a lonely journey, but the
-            support family businesses can get in our community is key to help
-            them solve important challenges and remain successful across the
-            generations.
-          </p>
+          <h3>OUR CORE VALUES</h3>
+          <ul>
+<li><strong>Ubuntu:</strong> We believe in the African philosophy of Ubuntu – "I am because we are." Our efforts are rooted in the idea of community and mutual support.</li>
+<li><strong>Empowerment:</strong> We strive to empower individuals through knowledge, skills, and opportunities.</li>
+<li><strong>Integrity:</strong> We uphold the highest standards of integrity in all our activities.</li>
+<li><strong>Innovation:</strong> We encourage creativity and innovation in all aspects of our work.</li>
+<li><strong>Respect for Heritage:</strong> We honor and respect our diverse African heritage, traditions, and cultures.</li>
+          </ul>
+        
         </div>
       </div>
     </>

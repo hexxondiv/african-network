@@ -1,11 +1,12 @@
 import { useState } from "react";
 import Carousel from "react-bootstrap/Carousel";
-import { Link } from "react-router-dom";
-import Banner1 from "../../assets/images/banner1.jpg";
-import Banner2 from "../../assets/images/banner2.jpg";
-import Banner3 from "../../assets/images/banner3.jpg";
-import Banner4 from "../../assets/images/banner4.jpg";
-import Welcome from "../../assets/images/welcome-img.webp";
+import { Link, Navigate, useNavigate } from "react-router-dom";
+import Banner1 from "../../assets/images/banner2.jpg";
+import Banner2 from "../../assets/images/5.jpg";
+import Banner3 from "../../assets/images/4.png";
+import Banner4 from "../../assets/images/2.jpg";
+import Banner5 from "../../assets/images/5.jpg";
+import Welcome from "../../assets/images/banner1.png";
 import MovingComponent from "react-moving-text";
 import { News } from "../../components/News/News";
 import { latestNews } from "../../TextData";
@@ -16,10 +17,12 @@ import Ratio from "react-bootstrap/Ratio";
 
 export const Home = () => {
   const [index, setIndex] = useState(0);
+  const navigate = useNavigate();
 
   const handleSelect = (selectedIndex) => {
     setIndex(selectedIndex);
   };
+  const goToPage=(pg)=>{navigate(pg);}
   const [state, setState] = useState({
     query: "",
     //  list: popularCourses,
@@ -49,7 +52,7 @@ export const Home = () => {
                   fillMode="none"
                 >
                   {" "}
-                  AN AFRICAN-WIDE COMMUNITY
+                  Unlock the power of knowing who we are as Africans and embrace our rich heritage
                 </MovingComponent>
               </p>
 
@@ -63,7 +66,7 @@ export const Home = () => {
                   iteration="1"
                   fillMode="none"
                 >
-                  PURPOSED TO HELP FAMILY BUSINESSES SUCCEED
+                  REDISCOVER OUR IDENTITY
                 </MovingComponent>
               </h1>
 
@@ -84,21 +87,21 @@ export const Home = () => {
                   fillMode="none"
                 >
                   {" "}
-                  AN AFRICAN-WIDE COMMUNITY
+                  Fostering education tailored to African contexts to build a proud and aware community
                 </MovingComponent>
               </p>
 
               <h1>
                 <MovingComponent
                   type="slideInFromTop"
-                  duration="3000ms"
+                  duration="4000ms"
                   delay="0s"
                   direction="normal"
                   timing="ease"
                   iteration="1"
                   fillMode="none"
                 >
-                  PURPOSED TO HELP FAMILY BUSINESSES SUCCEED
+                  RE-EDUCATE AND EMPOWER
                 </MovingComponent>
               </h1>
 
@@ -119,7 +122,7 @@ export const Home = () => {
                   fillMode="none"
                 >
                   {" "}
-                  AN AFRICAN-WIDE COMMUNITY
+                  Protecting and promoting African innovations and intellectual properties
                 </MovingComponent>
               </p>
 
@@ -133,7 +136,7 @@ export const Home = () => {
                   iteration="1"
                   fillMode="none"
                 >
-                  PURPOSED TO HELP FAMILY BUSINESSES SUCCEED
+                  RECLAIM OUR INTELLECTUAL FUTURE
                 </MovingComponent>
               </h1>
 
@@ -154,7 +157,7 @@ export const Home = () => {
                   fillMode="none"
                 >
                   {" "}
-                  AN AFRICAN-WIDE COMMUNITY
+                  Connect, collaborate, and contribute to a brighter future for Africa and its people.
                 </MovingComponent>
               </p>
 
@@ -168,7 +171,7 @@ export const Home = () => {
                   iteration="1"
                   fillMode="none"
                 >
-                  PURPOSED TO HELP FAMILY BUSINESSES SUCCEED
+                  JOIN OUR NETWORK
                 </MovingComponent>
               </h1>
 
@@ -181,16 +184,9 @@ export const Home = () => {
         <div className="col-md-6 mt">
           <div className="col-md-11">
             {" "}
-            <h3>Welcome to African Network for Research and Development</h3>
+            <h3>Rethinking Our African Identity</h3>
             <p>
-              ANRD is a not-for-profit organization of international scholars
-              seeking to further their understanding of Africa and the African
-              Diaspora. We do this through conferences and symposia, as well as
-              through publications. We also look for ways to share our work with
-              students and the general community. All who share these interests
-              are welcome to join ANRD. By joining you will be informed of all
-              the Association's activities and initiatives, and be eligible to
-              participate in ANRD conferences and governance.
+            UEAD is committed to redefining what it means to be African. Through collective introspection and dialogue, we seek to deepen our understanding of our cultural and intellectual heritage.
             </p>
             <Link to={"/who-we-are"}>Read More...</Link>
           </div>
@@ -246,10 +242,7 @@ export const Home = () => {
         <div className="col-md-6 mt mobile-padding">
           <h3>NETWORKING FOR SUCCESS</h3>
           <p>
-            Whilst every family business is different, they all face similar
-            challenges. This is why connecting with other family businesses who
-            have already faced, and overcome, the same challenges you are facing
-            can be invaluable for the success of your business.
+          We invite you to join us in our journey towards a brighter future for Africa and its people. Whether you are an educator, researcher, entrepreneur, student, or simply passionate about African development, there is a place for you at UEAD. Together, we can rethink our identity, re-educate ourselves, and reclaim Africa’s intellectual future.
           </p>
         </div>
       </center>

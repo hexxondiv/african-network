@@ -14,7 +14,7 @@ export const JournalOfEdu = () => {
                 className="col-md-6 prefooter-writeup journal-title {
 "
               >
-                <h2>JOURNAL OF AGRICULTURAL EDUCATION</h2>
+                <h2>JOURNAL OF EDUCATION AND DEVELOPMENT</h2>
                 <p>Empowering change, one purpose-driven step at a time.</p>
               </div>
             </center>
@@ -36,13 +36,13 @@ export const JournalOfEdu = () => {
         <h5>Journal of Ag Ed Online Publishing</h5>
         <Link to={"/"}>http://jae-online.org/</Link>
         <p>
-          Full Journal access is available to paid ANRD members. The JAE is now
+          Full Journal access is available to paid UEAD members. The JAE is now
           published in PDF format. Individual articles and entire journals may
           be downloaded for offline reading. Journals from Volume 1 (1960)
           forward are available online. The Journal is also indexed by EBSCO.
         </p>
         <p>
-          Usernames and passwords are created from the ANRD membership roster.
+          Usernames and passwords are created from the UEAD membership roster.
           Username is your last name plus the first 4 letters of your first name
           (Ex: RobertsGrad). Membership questions should be addressed to the
           Membership Secretary. Lost passwords can be retrieved from the
@@ -52,7 +52,7 @@ export const JournalOfEdu = () => {
         <p>Please contact the JAE Editor (listed below.)</p>
         <h5>Journal of Ag Ed Review (Fast Track)</h5>
         <p>
-          At least one author of a JAE submission must be a member of ANRD.{" "}
+          At least one author of a JAE submission must be a member of UEAD.{" "}
           <br />
           To submit and review article for the Journal, visit the PKP Submission
           site for JAE
@@ -64,7 +64,7 @@ export const JournalOfEdu = () => {
         <h4>Subscriptions</h4>
         <p>Please send all subscription requests to:</p>
         <h5>Dr. Shannon Arnold</h5>
-        <p>ANRD Treasurer</p>
+        <p>UEAD Treasurer</p>
         <p>Professor</p>
         <p>
           Agricultural Education and Technology Education Montana State

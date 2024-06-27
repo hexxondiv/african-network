@@ -30,7 +30,7 @@ function Membership() {
         <div className="col-md-6 mt">
           <h4>PROGRAMS FOR MEMBERS</h4>
           <p>
-            At African Network for Research and Development (ANRD) our purpose
+            At Ubuntu and Education for African Development (UEAD) our purpose
             is to help family businesses succeed. We do this by assisting family
             businesses harness their unique competitive advantage. Leveraging
             ‘family business’ as an asset is what truly sets our members apart
@@ -285,7 +285,7 @@ function Membership() {
                 be lead through thought-provoking sessions on leadership and
                 strategic business planning by our team of experts.
               </p>
-              <button>JOIN ARND NOW</button>
+              <button>JOIN UEAD NOW</button>
             </center>
           </div>
           <div className="col-md-6 mt5 ">
@@ -340,7 +340,7 @@ function Membership() {
                 ensures there are no potential conflicts within your peer forum
                 group, for example family members or industry competitors.
               </p>
-              <button>JOIN ARND NOW</button>
+              <button>JOIN UEAD NOW</button>
             </center>
           </div>
           <div className="col-md-6 mt4 ">
@@ -355,7 +355,7 @@ function Membership() {
             <center>
               {" "}
               <h4>GOVERNANCE FOR STABILITY</h4>
-              <button>JOIN ARND NOW</button>
+              <button>JOIN UEAD NOW</button>
             </center>
           </div>
           <div className="col-md-6 mt4">
