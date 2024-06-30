@@ -4,7 +4,6 @@ import { Events } from "../../../components/Events/Event";
 import { News } from "../../../components/News/News";
 import { latestEvents } from "../../../TextData/eventsData";
 import Dinner from "../../../assets/images/dinner.webp";
-import Icofont from "react-icofont";
 
 // import "../../research-group.scss";
 export const MainEvents = () => {
