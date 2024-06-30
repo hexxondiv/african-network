@@ -32,7 +32,7 @@ function Footer() {
           <div className="col-md-3 padd">
             <h3>ABOUT US</h3>
             <p>
-              At UEAD, we are driven by a deep commitment to redefining what it means to be African in the modern world. Our mission is to rethink our African identity, re-educate ourselves, and reclaim Africa's intellectual future through dedicated research, comprehensive education, and robust networking.
+              At NEAD, we are driven by a deep commitment to redefining what it means to be African in the modern world. Our mission is to rethink our African identity, re-educate ourselves, and reclaim Africa's intellectual future through dedicated research, comprehensive education, and robust networking.
             </p>
           </div>
           <div className="col-md-4 padd">
@@ -41,7 +41,7 @@ function Footer() {
 
             <p>+2348034232630 / +2348068122576</p>
             <p>Swaziland, Lagos, Johannesburg, Capetown, Nairobi, Lusaka</p>
-            <a>admin@uead.org</a>
+            <a>admin@NEAD.org</a>
           </div>
           <div className="col-md-5">
             <div className="col-md-10 offset-md-1 email-div">
@@ -53,7 +53,7 @@ function Footer() {
         </div>
       </div>
       <center className="credits">
-        <div className="col-md-4">© UEAD 2024</div>
+        <div className="col-md-4">© NEAD 2024</div>
         <div className="col-md-4">by <Link className="text-light" target="_blank" to={"https://www.hexxondiv.com"}>Hexxondiv Global Services</Link></div>
       </center>
     </footer>

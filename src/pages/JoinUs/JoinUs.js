@@ -30,12 +30,9 @@ export const JoinUs = () => {
             <div>
               <h6>Active - &#8358; 5,000.00 (NGN)</h6>
               <p>
-                Subscription period: 1 year, on: January 1st No automatically
-                recurring payments Active Membership is open to all individuals
-                employed in agricultural education, agricultural communications,
-                agricultural leadership, extension education or closely related
-                fields. Only Active Members may serve in leadership positions in
-                the association.
+                Subscription period: 1 year, on: January 1st. No automatically
+                recurring payments. Active Membership is open to all individuals.
+                Only Active Members may serve in leadership positions in the association.
               </p>
             </div>
           </div>
@@ -62,12 +59,12 @@ export const JoinUs = () => {
             <div>
               <h6>Student - &#8358;3,000 (NGN)</h6>
               <p>
-                Subscription period: 1 year, on: January 1st No automatically
-                recurring payments Student Membership is open to undergraduate
+                Subscription period: 1 year, on: January 1st. No automatically
+                recurring payments. Student Membership is open to undergraduate
                 and graduate students studying for careers in education, communications, leadership,
                 extension education or closely related fields. Student Members
-                are eligible to attend and participate in discussion of AAAE
-                business, however they are not eligible to vote or hold office.
+                are eligible to attend and participate in discussion of NEAD
+                Africa, however they are not eligible to vote or hold office.
               </p>
             </div>
           </div>
@@ -199,7 +196,7 @@ export const JoinUs = () => {
                 className="col-md-6 prefooter-writeup {
 "
               >
-                <h3>JOIN US</h3>
+                <h2>JOIN US</h2>
                 <p>Empowering change, one purpose-driven step at a time.</p>
               </div>
             </center>
@@ -208,107 +205,34 @@ export const JoinUs = () => {
       </div>
       <PageLinks />
       <div className="col-md-8 offset-md-2 mt7 join-us-div mobile-padding">
-        <h1>Join UEAD</h1>
+        <h1>Join NEAD</h1>
         <p>
-          Full access to the Journal of Agricultural Education is available to
-          paid AAAE members. The JAE is now published in PDF format. Individual
+          Full access to the NEAD Journal is available to
+          paid NEAD members. The Journal is now published in PDF format. Individual
           articles and entire journals may be downloaded for offline rea ding.
-          Journals from Volume 1 (1960) forward are available online. The
+          Journals from Volume 1 (2024) forward are available online. The
           Journal is also indexed by EBSCO.
         </p>
         <p>
-          More information about the UEAD can be found{" "}
+          More information about the NEAD can be found{" "}
           <Link to={"/who-we-are"}>HERE</Link>
         </p>
         <p>
-          Usernames and passwords for the JAE are created from the UEAD
+          Usernames and passwords for the JAE are created from the NEAD
           membership roster and may take up to two weeks to be activated.
         </p>
         <p>
           Membership questions should be addressed to the
-          <Link> UEAD Association Manager.</Link>
+          <Link> NEAD Association Manager.</Link>
         </p>
         <p>
           Lost passwords can be retrieved from the{" "}
-          <Link>http://UEAD-online.org/</Link> site using your email address.
+          <Link>https://neadafrica.org/</Link> site using your email address.
         </p>
         <p>
           For questions about this system please contact the{" "}
-          <Link>UEAD Editor</Link>
+          <Link>NEAD Editor</Link>
         </p>
-
-        {/* <div className="flexy membership-level">
-          <div className="col-md-3 offset-md-1">
-            <h5>
-              <span>*</span>Membership level
-            </h5>
-          </div>
-          <div className="col-md-8 ">
-            <div className="flexy flexyM">
-              <input type="radio" />
-              <div>
-                <h6>Active - $150.00 (USD)</h6>
-                <p>
-                  Subscription period: 1 year, on: January 1st No automatically
-                  recurring payments Active Membership is open to all
-                  individuals employed in agricultural education, agricultural
-                  communications, agricultural leadership, extension education
-                  or closely related fields. Only Active Members may serve in
-                  leadership positions in the association.
-                </p>
-              </div>
-            </div>
-            <div className="flexy flexyM">
-              <input type="radio" />
-              <div>
-                <h6>Associate - $50.00 (USD)</h6>
-                <p>
-                  Subscription period: 1 year, on: January 1st No automatically
-                  recurring payments Associate Membership is open to individuals
-                  who work with agricultural education related organizations
-                  such as the National Association of Agricultural Educators
-                  (NAAE), the National Association of Supervisors of
-                  Agricultural Education (NASAE), the National FFA Organization,
-                  career and technical education organizations, or others who
-                  wish to support the AAAE.
-                </p>
-              </div>
-            </div>
-            <div className="flexy flexyM">
-              <input type="radio" />
-              <div>
-                <h6>Life Membership-Full Payment - $3,000.00 (USD)</h6>
-                <p>Subscription period: Unlimited Full payment of $3,000</p>
-              </div>
-            </div>
-            <div className="flexy flexyM">
-              <input type="radio" />
-              <div>
-                <h6>Non-Member - Free</h6>
-                <p>
-                  Subscription period: Unlimited Included in the directory but
-                  no access to membership only areas.
-                </p>
-              </div>
-            </div>
-            <div className="flexy flexyM">
-              <input type="radio" />
-              <div>
-                <h6>Student - $30.00 (USD)</h6>
-                <p>
-                  Subscription period: 1 year, on: January 1st No automatically
-                  recurring payments Student Membership is open to undergraduate
-                  and graduate students studying for careers in agricultural
-                  education, agricultural communications, agricultural
-                  leadership, extension education or closely related fields.
-                  Student Members are eligible to attend and participate in
-                  discussion of AAAE business, however they are not eligible to
-                  vote or hold office.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div> */}
         <div>{content}</div>
       </div>
     </>

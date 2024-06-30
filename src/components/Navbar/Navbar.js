@@ -93,7 +93,7 @@ export const Navbar = () => {
                       </li>{" "}
                       <li>
                         {" "}
-                        <Link to={"/mission"}>Misson & Constitution</Link>
+                        <Link to={"/mission"}>Mission & Constitution</Link>
                       </li>
                       <li>
                         <Link to={"/officers"}>Officers</Link>
@@ -120,9 +120,9 @@ export const Navbar = () => {
                       <li>
                         <Link to={"/events-page"}>Events</Link>
                       </li>
-                      <li>
-                        <Link to={"#"}>Jobs & Fellowships</Link>
-                      </li>
+                      {/*<li>*/}
+                      {/*  <Link to={"#"}>Jobs & Fellowships</Link>*/}
+                      {/*</li>*/}
                     </ul>
                   </div>
                 </div>
@@ -136,8 +136,8 @@ export const Navbar = () => {
                   <div className="content2 ">
                     <ul className="list-unstyled ">
                       <li>
-                      <Link to={"/journal-of-edu"}>
-                              UEAD Journal
+                      <Link to={"/journal"}>
+                              NEAD Journal
                             </Link>
                       </li> 
                       <li>

@@ -10,11 +10,9 @@ const Contact = () => {
           <div className=" col-md-12 after">
             <center>
               <div
-                className="col-md-6 prefooter-writeup {
-"
-              >
-                <h3>CONTACT</h3>
-                <p>Please fill in the forms below to contact us.</p>
+                className="col-md-6 prefooter-writeup">
+                <h1>CONTACT US</h1>
+                <p>Welcome to the Network for Educational Advancement and Development (NEAD)! We value your interest and are eager to connect. Whether you have questions, feedback, or wish to learn more about our initiatives, please fill out the form below. Your inquiries will be directed to the appropriate department, and we will respond as soon as possible. Thank you for reaching out to NEAD.</p>
               </div>
             </center>
           </div>
@@ -85,35 +83,18 @@ const Contact = () => {
                   </g>
                 </svg>
               </div>
-              <p>admin@africannetworkresearch.org</p>
+              <p>neadafrica@gmail.com</p>
             </div>{" "}
           </center>
         </div>
 
         <div className="col-md-5 offset-md-1 mobile-padding mt5">
           <h4>We want to hear from you.</h4>
-          <small>
-            To better respond to your needs, the network welcomes all questions,
-            suggestions and comments.
-          </small>
-          <form className="mt5 contact-form">
-            <select>
-              <option>---</option>
-              <option>Ms</option>
-              <option>Mr</option>
-              <option>Dr</option>
-              <option>Prof</option>
-            </select>
-            <h6>Your Name (required)</h6>
-            <input type="text" /> <h6>Your Email (required)</h6>
-            <input type="text" /> <h6>Your Tel</h6>
-            <input type="tel" />
-            <h6>Subject </h6>
-            <input type="text" /> <h6>Your Message (required)</h6>
-            <textarea />
-            <center className="mt3">
-              <button>Send</button>
-            </center>
+          <form className="mt1 contact-form">
+            <iframe
+                src="https://docs.google.com/forms/d/e/1FAIpQLSdB5WAeuczSDn6tW4bxjEAB2HvEHgy0n74J8e9GEOLAOCv-fQ/viewform?embedded=true"
+                width="100%" height="936" frameBorder="0" marginHeight="0" marginWidth="0">Loading…
+            </iframe>
           </form>
         </div>
       </div>

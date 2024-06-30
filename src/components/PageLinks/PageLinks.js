@@ -7,7 +7,7 @@ const PageLinks = () => {
       <ul className="list-unstyled list-inline offset-md-2">
         <li className="list-inline-item">
           <NavLink to={"/news-page"}>News & Announcement</NavLink>
-          <NavLink to={"join-us"}>Join or Renew</NavLink>
+          <NavLink to={"/join-us"}>Join or Renew</NavLink>
           <NavLink to={"/contact"}>Contact Us</NavLink>
         </li>
       </ul>

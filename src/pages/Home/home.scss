@@ -10,7 +10,11 @@
     height: 100%;
   }
   .carousel-caption {
-    top: 50%;
+    top: 40%;
+    @media screen and (max-width: 620px) {
+      top: 30%;
+    }
+
   }
   h1 {
     font-size: 60px;
@@ -23,6 +27,7 @@
       font-size: 20px;
     }
   }
+  p{text-shadow: 2px 0px 2px #777777; font-weight: bold}
   button {
     background: rgba(11, 38, 65, 0.7);
     border: none;

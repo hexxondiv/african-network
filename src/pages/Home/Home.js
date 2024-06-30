@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Carousel from "react-bootstrap/Carousel";
 import { Link, Navigate, useNavigate } from "react-router-dom";
+import Banner0 from "../../assets/images/neadafrica.png";
 import Banner1 from "../../assets/images/banner2.jpg";
 import Banner2 from "../../assets/images/5.jpg";
 import Banner3 from "../../assets/images/4.png";
@@ -39,7 +40,7 @@ export const Home = () => {
       <div className="car-div">
         <Carousel activeIndex={index} onSelect={handleSelect} fade>
           <Carousel.Item>
-            <img src={Banner1} width="100%" />
+            <img src={Banner0} width="100%" />
             <Carousel.Caption>
               <p>
                 <MovingComponent
@@ -70,7 +71,7 @@ export const Home = () => {
                 </MovingComponent>
               </h1>
 
-              <button>Read More</button>
+              {/*<button>Read More</button>*/}
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -105,7 +106,7 @@ export const Home = () => {
                 </MovingComponent>
               </h1>
 
-              <button>Read More</button>
+              {/*<button>Read More</button>*/}
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -140,7 +141,7 @@ export const Home = () => {
                 </MovingComponent>
               </h1>
 
-              <button>Read More</button>
+              {/*<button>Read More</button>*/}
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -175,18 +176,18 @@ export const Home = () => {
                 </MovingComponent>
               </h1>
 
-              <button>Read More</button>
+              {/*<button>Read More</button>*/}
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
       </div>
       <div className="welcome-div col-md-10 offset-md-1 flexy mt no-margin mobile-padding">
-        <div className="col-md-6 mt">
+        <div className="col-md-6 mt5">
           <div className="col-md-11">
             {" "}
             <h3>Rethinking Our African Identity</h3>
             <p>
-            UEAD is committed to redefining what it means to be African. Through collective introspection and dialogue, we seek to deepen our understanding of our cultural and intellectual heritage.
+            NEAD is committed to redefining what it means to be African. Through collective introspection and dialogue, we seek to deepen our understanding of our cultural and intellectual heritage.
             </p>
             <Link to={"/who-we-are"}>Read More...</Link>
           </div>
@@ -242,7 +243,7 @@ export const Home = () => {
         <div className="col-md-6 mt mobile-padding">
           <h3>NETWORKING FOR SUCCESS</h3>
           <p>
-          We invite you to join us in our journey towards a brighter future for Africa and its people. Whether you are an educator, researcher, entrepreneur, student, or simply passionate about African development, there is a place for you at UEAD. Together, we can rethink our identity, re-educate ourselves, and reclaim Africa’s intellectual future.
+          We invite you to join us in our journey towards a brighter future for Africa and its people. Whether you are an educator, researcher, entrepreneur, student, or simply passionate about African development, there is a place for you at NEAD. Together, we can rethink our identity, re-educate ourselves, and reclaim Africa’s intellectual future.
           </p>
         </div>
       </center>

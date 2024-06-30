@@ -22,11 +22,11 @@ const WhoWeAre = () => {
         </div>
       </div>
       <PageLinks />
-      <div className="col-md-8 offset-md-2 mt about-us mobile-padding">
-        <h6>Name: Ubuntu and Education for African Development Association UEAD</h6>
-        <h6>Background and Focus:</h6>
+      <div className="col-md-8 offset-md-2 col-sm-10 offset-sm-1 mt3 about-us mobile-padding">
+        <h4>Name: Network for Educational Advancement and Development (NEAD)</h4>
+        <h3>Background and Focus:</h3>
         <p>
-          <strong>Ubuntu and Education for African Development</strong> is an
+          <strong>Network for Educational Advancement and Development</strong> is an
           international group of scholars interested in Africa’s development. It
           is organized in a network whose intention is to promote, disseminate,
           and stimulate high quality research in economic, management, and
@@ -34,7 +34,7 @@ const WhoWeAre = () => {
         </p>
         <p>
           The seeds of Managing{" "}
-          <strong>Ubuntu and Education for African Development</strong> were
+          <strong>Network for Educational Advancement and Development</strong> were
           planted by Professor Vincent Asogwa during the 5th Aalborg University
           Conference whose theme was Finding Solutions to the New Challenges of
           Internationalization held at Comwell Rebild Bakker, Aalborg-Denmark
@@ -46,7 +46,7 @@ const WhoWeAre = () => {
         <p>
           In particular, the network will serve as a meeting and communication
           forum for all its subscribers resident in Africa and elsewhere. It is
-          a network for exchange of knowledge on an international level and
+          a network for exchange of knowledge on an international level, and
           constitutes machinery allowing for a better dissemination of
           information on research, teaching and outreach. The network also aims
           at the development of relations with all other professional and
@@ -54,17 +54,17 @@ const WhoWeAre = () => {
           management and development.
         </p>
         <p>
-          <strong>UEAD Vision: </strong>
+          <strong>NEAD Vision: </strong>
           Leading catalyst for Africa research, publication and application.
         </p>
         <p>
-          <strong>UEAD Mission: </strong>{" "}
+          <strong>NEAD Mission: </strong>{" "}
           facilitate research, publish scholarly articles, and stimulate
           creativity, innovation and application in Africa based organisations
           to foster socio economic change for the betterment of all.
         </p>
 
-        <h4>Guiding Philosophy</h4>
+        <h3>Guiding Philosophy</h3>
         <ul>
           <li>None of us is greater than all of us.</li>
           <li>I am because we are; I can only be a person through others.</li>
@@ -76,7 +76,7 @@ const WhoWeAre = () => {
           </li>
           <li>The whole affects the part as much as the part affects the whole.</li>
         </ul>
-        <h4>Operating Principles</h4>
+        <h3>Operating Principles</h3>
         <h5>As a result of our guiding philosophy we will:</h5>
         <ul>
           <li>Be open and honest.</li>

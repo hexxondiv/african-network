@@ -3,7 +3,7 @@
 
   width: 100%;
 
-  background: url("../../assets/images/membership.webp");
+  background: url("../../assets/images/banner2.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -42,10 +42,14 @@
       text-decoration: underline;
     }
   }
+
+  p {
+    font-size: 16px !important;
+    text-align: justify !important;
+  }
   .padd {
     padding: 10px;
     p {
-      font-size: 14px;
       margin-top: 40px;
       margin-bottom: 35px;
     }
@@ -62,6 +66,10 @@
   h6 {
     text-decoration: underline;
     margin-top: 30px;
+  }
+  p {
+    font-size: 16px !important;
+    text-align: justify !important;
   }
   button {
     background: rgba(11, 38, 65, 1);
@@ -81,6 +89,10 @@
   h6 {
     text-decoration: underline;
     margin-top: 30px;
+  }
+  p {
+    font-size: 16px !important;
+    text-align: justify !important;
   }
   button {
     background: rgba(11, 38, 65, 1);

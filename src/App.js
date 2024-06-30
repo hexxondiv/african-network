@@ -36,7 +36,7 @@ function App() {
         <Route path="who-we-are" element={<WhoWeAre />} />
         <Route path="membership" element={<Membership />} />
         <Route path="join-us" element={<JoinUs />} />
-        <Route path="journal-of-edu" element={<JournalOfEdu />} />
+        <Route path="journal" element={<JournalOfEdu />} />
         <Route path="jobs" element={<Jobs />} />
       </Routes>
       <Footer />

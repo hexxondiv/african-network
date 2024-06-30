@@ -3,11 +3,11 @@
 
   width: 100%;
 
-  background: url("../../assets/images/contact.webp");
+  background: url("../../assets/images/contact.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   @media screen and (max-width: 620px) {
     transform: translateX(0%) translateY(0%);
     object-fit: cover;
@@ -79,4 +79,5 @@
   .TcoJIb * {
     vector-effect: non-scaling-stroke;
   }
+  p, .prefooter-writeup p{font-size: 16px; text-shadow:1px 0 1px #777777 !important;}
 }
