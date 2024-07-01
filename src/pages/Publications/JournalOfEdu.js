@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import PageLinks from "../../components/PageLinks/PageLinks";
 import "./publication.scss";
+import { API_URL } from '../../../src/config';
 export const JournalOfEdu = () => {
   return (
     <>
@@ -32,7 +33,7 @@ export const JournalOfEdu = () => {
           </em>
         </h4>
         <h5>NEAD Journal of Education Online Publishing</h5>
-        <Link to={"http://localhost:8000"}>Go to Journal</Link>
+        <Link to={API_URL}>Go to Journal</Link>
         <p>
           Full Journal access is available to paid NEAD members. The NEADJ is now
           published in PDF format. Individual articles and entire journals may
@@ -55,7 +56,7 @@ export const JournalOfEdu = () => {
           To submit and review article for the Journal, visit the PKP Submission
           site for NEADJ
         </p>
-        <Link to={"http://localhost:8000"}>Link to PKP</Link>
+        <Link to={API_URL}>Link to PKP</Link>
         <p>You create your own username and password.</p>
         For questions about this system, please contact the{" "}
         <Link to={""}>NEADJ Editor.</Link>

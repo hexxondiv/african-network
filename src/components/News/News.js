@@ -1,13 +1,11 @@
 import React, { useEffect, useState } from "react";
-import { Link, useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./news.scss";
 export const News = ({ data }) => {
   const [blogId, setBlogId] = useState(0);
-  const location = useLocation();
-
   useEffect(() => {
     setBlogId(data.id);
-  });
+  },[data.id]);
 
   return (
     <div className="news-component col-md-6 ">

@@ -1,15 +1,11 @@
 import React, { useEffect, useState } from "react";
-import { Link, useLocation, useParams } from "react-router-dom";
+import { Link,  useParams } from "react-router-dom";
 import { Events } from "../../../components/Events/Event";
-import { News } from "../../../components/News/News";
 import { latestEvents } from "../../../TextData/eventsData";
 import Dinner from "../../../assets/images/dinner.webp";
-
-// import "../../research-group.scss";
 export const MainEvents = () => {
   const [data, setData] = useState({});
   const [id, setId] = useState(0);
-  const location = useLocation();
   const { blog_id } = useParams();
   useEffect(() => {
     setId(blog_id);
@@ -20,7 +16,7 @@ export const MainEvents = () => {
     if (id !== 0)
       setData(
         latestEvents.find((obj) => {
-          return obj.id == id;
+          return obj.id === id;
         })
       );
     // console.log(data, research, id);
@@ -60,7 +56,7 @@ export const MainEvents = () => {
           <div className="col-md-12 event-showcase mobile-padding">
             <div className="col-md-5 offset-md-4">
               {" "}
-              <img src={data.eventBanner} width="100%" />
+              <img src={data.eventBanner} width="100%" alt={""} />
             </div>
           </div>
           <div className="col-md-10 offset-md-1  news-body">
@@ -112,7 +108,7 @@ export const MainEvents = () => {
             </div>
           </div>
           <div className="col-md-12 mt">
-            <img src={Dinner} width="100%" />
+            <img src={Dinner} width="100%" alt={""} />
           </div>
         </>
       ) : (

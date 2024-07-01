@@ -1,15 +1,9 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import React from "react";
 import "./news-page.scss";
 import { News } from "../../components/News/News";
 import { latestNews } from "../../TextData";
 import PageLinks from "../../components/PageLinks/PageLinks";
 export const NewsPage = () => {
-  const [state, setState] = useState({
-    query: "",
-    list: latestNews,
-  });
-
   return (
     <>
       {" "}
@@ -32,7 +26,7 @@ export const NewsPage = () => {
       <PageLinks />
       <h3 className="offset-md-2 mt">Stay Informed</h3>
       <div className="row row-cols-1 row-cols-lg-2  g-lg-2 col-md-8 offset-md-2 mt5 mobile-padding">
-        {state.list.map((data, index) => (
+        {latestNews.map((data, index) => (
           <News data={data} key={data.id} />
         ))}
       </div>

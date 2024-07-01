@@ -92,6 +92,7 @@ const Contact = () => {
           <h4>We want to hear from you.</h4>
           <form className="mt1 contact-form">
             <iframe
+                title={"Contact form"}
                 src="https://docs.google.com/forms/d/e/1FAIpQLSdB5WAeuczSDn6tW4bxjEAB2HvEHgy0n74J8e9GEOLAOCv-fQ/viewform?embedded=true"
                 width="100%" height="936" frameBorder="0" marginHeight="0" marginWidth="0">Loading…
             </iframe>

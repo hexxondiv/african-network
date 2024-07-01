@@ -264,8 +264,8 @@ function Membership() {
                         </center>
                     </div>
                     <div className="col-md-6 mt5 ">
-                        <img src={Img1} width="100%"/>
-                        <img src={Img2} width="100%" className="mt1"/>
+                        <img src={Img1} width="100%" alt={""}/>
+                        <img src={Img2} width="100%" className="mt1" alt={""}/>
                     </div>
                 </div>
             </div>
@@ -294,7 +294,7 @@ function Membership() {
                         </center>
                     </div>
                     <div className="col-md-6 mt4 ">
-                        <img src={Img3} width="100%"/>
+                        <img src={Img3} width="100%" alt={""}/>
                     </div>
                 </div>
             </div>
@@ -316,7 +316,7 @@ function Membership() {
                         </center>
                     </div>
                     <div className="col-md-6 mt4">
-                        <img src={Img4} width="100%"/>
+                        <img src={Img4} width="100%" alt={""}/>
                     </div>
                 </div>
             </div>

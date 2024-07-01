@@ -71,7 +71,7 @@ export const Navbar = () => {
           <div className="logo-div col-md-1">
             <Link to={"/"}>
               {" "}
-              <img src={Logo} width="90%" />
+              <img src={Logo} width="90%" alt={""} />
             </Link>
           </div>
           <ul className="list-unstyled list-inline offset-md-2 main-links">

@@ -1,12 +1,10 @@
 import React, { useEffect, useState } from "react";
-import { Link, useLocation, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import { News } from "../../../components/News/News";
 import { latestNews } from "../../../TextData";
-// import "../../research-group.scss";
 export const MainNews = () => {
   const [data, setData] = useState({});
   const [id, setId] = useState(0);
-  const location = useLocation();
   const { blog_id } = useParams();
   useEffect(() => {
     setId(blog_id);
@@ -17,7 +15,7 @@ export const MainNews = () => {
     if (id !== 0)
       setData(
         latestNews.find((obj) => {
-          return obj.id == id;
+          return obj.id === id;
         })
       );
     // console.log(data, research, id);

@@ -1,12 +1,10 @@
 import { useState } from "react";
 import Carousel from "react-bootstrap/Carousel";
-import { Link, Navigate, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Banner0 from "../../assets/images/neadafrica.png";
-import Banner1 from "../../assets/images/banner2.jpg";
 import Banner2 from "../../assets/images/5.jpg";
 import Banner3 from "../../assets/images/4.png";
 import Banner4 from "../../assets/images/2.jpg";
-import Banner5 from "../../assets/images/5.jpg";
 import Welcome from "../../assets/images/banner1.png";
 import MovingComponent from "react-moving-text";
 import { News } from "../../components/News/News";
@@ -18,12 +16,10 @@ import Ratio from "react-bootstrap/Ratio";
 
 export const Home = () => {
   const [index, setIndex] = useState(0);
-  const navigate = useNavigate();
 
   const handleSelect = (selectedIndex) => {
     setIndex(selectedIndex);
   };
-  const goToPage=(pg)=>{navigate(pg);}
   const [state, setState] = useState({
     query: "",
     //  list: popularCourses,
@@ -40,7 +36,7 @@ export const Home = () => {
       <div className="car-div">
         <Carousel activeIndex={index} onSelect={handleSelect} fade>
           <Carousel.Item>
-            <img src={Banner0} width="100%" />
+            <img src={Banner0} width="100%" alt={""} />
             <Carousel.Caption>
               <p>
                 <MovingComponent
@@ -75,7 +71,7 @@ export const Home = () => {
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
-            <img src={Banner2} width="100%" />
+            <img src={Banner2} width="100%" alt={""}/>
             <Carousel.Caption>
               <p>
                 <MovingComponent
@@ -110,7 +106,7 @@ export const Home = () => {
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
-            <img src={Banner3} width="100%" />
+            <img src={Banner3} width="100%" alt={""} />
             <Carousel.Caption>
               <p>
                 <MovingComponent
@@ -145,7 +141,7 @@ export const Home = () => {
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
-            <img src={Banner4} width="100%" />
+            <img src={Banner4} width="100%" alt={""}/>
             <Carousel.Caption>
               <p>
                 <MovingComponent
@@ -193,7 +189,7 @@ export const Home = () => {
           </div>
         </div>
         <div className="col-md-6">
-          <img src={Welcome} width="100%" />
+          <img src={Welcome} width="100%" alt={""} />
         </div>
       </div>
       <div className="events-div">

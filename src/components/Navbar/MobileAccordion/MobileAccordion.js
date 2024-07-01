@@ -1,22 +1,9 @@
-import React, { useEffect, useState } from "react";
+import React  from "react";
 import "./_mobile-accordion.scss";
 import Accordion from "react-bootstrap/Accordion";
-import { Link, NavLink, useLocation } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const MobileAccordion = () => {
-  const location = useLocation(false);
-  // const [click, setClick] = useState(false);
-
-  // const handleClick = () => setClick(!click);
-  // const closeMobileMenu = () => setClick(false);
-  // const setThisShowActive = () => {
-  //   setShowActive(!showActive);
-  // };
-  // useEffect(() => {
-  //   console.log(location.pathname);
-  //   setThisShowActive();
-  //   setThisShowActive();
-  // }, [location]);
   return (
     <div className="col-md-12 mobile-accordion ">
       <NavLink to={"/"} className="home-link">

@@ -1,7 +1,7 @@
 import "./_leaders-profile.scss";
 
 import Offcanvas from "react-bootstrap/Offcanvas";
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState } from "react";
 
 export const LeadersProfile = ({ data }) => {
   const [show, setShow] = useState(false);

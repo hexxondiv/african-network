@@ -41,7 +41,7 @@ function Footer() {
 
             <p>+2348034232630 / +2348068122576</p>
             <p>Swaziland, Lagos, Johannesburg, Capetown, Nairobi, Lusaka</p>
-            <a>admin@NEAD.org</a>
+            <p>admin@NEAD.org</p>
           </div>
           <div className="col-md-5">
             <div className="col-md-10 offset-md-1 email-div">

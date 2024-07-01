@@ -1,9 +1,5 @@
 import Officer1 from "../assets/images/officer1.png";
 import Officer2 from "../assets/images/officer2.png";
-import Officer3 from "../assets/images/officer3.jpeg";
-import Officer4 from "../assets/images/officer4.jpeg";
-import Officer5 from "../assets/images/officer5.jpeg";
-import Officer6 from "../assets/images/officer6.jpeg";
 export const officers = [
   {
     profileImg: Officer1,

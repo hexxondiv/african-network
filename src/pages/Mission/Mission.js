@@ -1,5 +1,5 @@
 import React from "react";
-import {Link, NavLink} from "react-router-dom";
+import {Link} from "react-router-dom";
 import "./mission.scss";
 import Img1 from "../../assets/images/consti.webp";
 import Img2 from "../../assets/images/constitution.jpg";
@@ -12,7 +12,7 @@ const Mission = () => {
             <div className="page-background">
                 <div className=" mission-shadow header-wrapper">
                     <div className="col-md-12 mission-banner "></div>
-                    <div className=" col-md-12 after">
+                    <div className="col-md-12 after">
                         <center>
                             <div
                                 className="col-md-6 prefooter-writeup {
@@ -55,7 +55,7 @@ const Mission = () => {
             </div>
             <div className="col-md-8 offset-md-2 flexy mt mission-body no-margin mobile-padding">
                 <div className="col-md-6 mt">
-                    <img src={Img2} width="100%"/>
+                    <img src={Img2} width="100%" alt={""}/>
                 </div>
                 <div className="col-md-5 offset-md-1 mt4">
                     {" "}
@@ -122,7 +122,7 @@ const Mission = () => {
             </div>
             <div className="col-md-8 offset-md-2 flexy mt mission-body mobile-padding">
                 <div className="col-md-6 ">
-                    <img src={Img1} width="100%"/>
+                    <img src={Img1} width="100%" alt={""}/>
                 </div>
                 <div className="col-md-5 offset-md-1">
                     {" "}
