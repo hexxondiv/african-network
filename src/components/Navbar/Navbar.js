@@ -97,6 +97,9 @@ export const Navbar = () => {
                       </li>
                       <li>
                         <Link to={"/officers"}>Officers</Link>
+                      </li>{" "}
+                      <li>
+                        <Link to={"/members"}>Members</Link>
                       </li>
                       <li>
                         <Link to={"/contact"}>Contact us</Link>
@@ -136,15 +139,12 @@ export const Navbar = () => {
                   <div className="content2 ">
                     <ul className="list-unstyled ">
                       <li>
-                      <Link to={"/journal"}>
-                              NEAD Journal
-                            </Link>
-                      </li> 
+                        <Link to={"/journal"}>NEAD Journal</Link>
+                      </li>
                       <li>
                         {" "}
                         <Link to={"/news-page"}>News & Announcements</Link>
                       </li>
-                     
                     </ul>
                   </div>
                 </div>

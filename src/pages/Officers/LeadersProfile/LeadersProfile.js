@@ -59,7 +59,9 @@ export const LeadersProfile = ({ data }) => {
                 <strong>{data.profileName}</strong>,{" "}
                 <em> {data.profilePortfolio}</em>
               </p>
-              <p className="mt3" style={{textAlign:"justify"}}>{data.profileInfo}</p>
+              <p className="mt3" style={{ textAlign: "justify" }}>
+                {data.profileInfo}
+              </p>
             </div>
           </Offcanvas.Body>
         </Offcanvas>

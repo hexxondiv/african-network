@@ -1,7 +1,8 @@
 import React from "react";
-import { LeadersProfile } from "./LeadersProfile/LeadersProfile";
+import { OfficersProfile } from "./OfficersProfile/OfficersProfile";
+import President from "../../assets/images/asogwa.jpeg";
 import "./officers.scss";
-import { officers } from "../../TextData";
+import { president, secretary, treasurer } from "../../TextData";
 import PageLinks from "../../components/PageLinks/PageLinks";
 export const Officers = () => {
   return (
@@ -23,10 +24,20 @@ export const Officers = () => {
         </div>
       </div>
       <PageLinks />
-      <div className="col-md-8 offset-md-2 mt mobile-padding no-margin">
-        <div className="row row-cols-2 row-cols-lg-3 g-2 g-lg-3">
-          {officers.map((item, index) => (
-            <LeadersProfile data={item} key={index} />
+      <div className="col-md-8 offset-md-2 mtt mobile-padding no-margin d-md-flex">
+        <div className="col-md-3 off1">
+          {treasurer.map((item, index) => (
+            <OfficersProfile data={item} key={index} />
+          ))}
+        </div>{" "}
+        <div className="col-md-6 off2">
+          {president.map((item, index) => (
+            <OfficersProfile data={item} key={index} />
+          ))}
+        </div>{" "}
+        <div className="col-md-3 off1">
+          {secretary.map((item, index) => (
+            <OfficersProfile data={item} key={index} />
           ))}
         </div>
       </div>

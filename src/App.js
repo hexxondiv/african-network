@@ -17,6 +17,7 @@ import Membership from "./pages/Membership/Membership";
 import { JoinUs } from "./pages/JoinUs/JoinUs";
 import { JournalOfEdu } from "./pages/Publications/JournalOfEdu";
 import { Jobs } from "./pages/Jobs/Jobs";
+import { Members } from "./pages/Officers/Members";
 function App() {
   return (
     <>
@@ -31,6 +32,7 @@ function App() {
         <Route path="main-events/:blog_id" element={<MainEvents />} />
         <Route path="mission" element={<Mission />} />
         <Route path="officers" element={<Officers />} />
+        <Route path="members" element={<Members />} />
         <Route path="contact" element={<Contact />} />
         <Route path="who-we-are" element={<WhoWeAre />} />
         <Route path="membership" element={<Membership />} />
