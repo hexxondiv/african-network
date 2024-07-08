@@ -24,22 +24,32 @@ export const Officers = () => {
         </div>
       </div>
       <PageLinks />
-      <div className="col-md-8 offset-md-2 mtt mobile-padding no-margin d-md-flex">
-        <div className="col-md-3 off1">
-          {treasurer.map((item, index) => (
-            <OfficersProfile data={item} key={index} />
-          ))}
-        </div>{" "}
-        <div className="col-md-6 off2">
-          {president.map((item, index) => (
-            <OfficersProfile data={item} key={index} />
-          ))}
-        </div>{" "}
-        <div className="col-md-3 off1">
-          {secretary.map((item, index) => (
-            <OfficersProfile data={item} key={index} />
-          ))}
+      <div className="officers-bg mt4">
+        <div className="col-md-8 offset-md-2 mobile-padding no-margin d-md-flex">
+          <div className="col-md-3 off2">
+            {treasurer.map((item, index) => (
+              <OfficersProfile data={item} key={index} />
+            ))}
+          </div>{" "}
+          <div className="col-md-6 off1">
+            {president.map((item, index) => (
+              <OfficersProfile data={item} key={index} />
+            ))}
+          </div>{" "}
+          <div className="col-md-3 off2">
+            {secretary.map((item, index) => (
+              <OfficersProfile data={item} key={index} />
+            ))}
+          </div>
         </div>
+        <center>
+          {" "}
+          <div className="col-md-2 ">
+            {secretary.map((item, index) => (
+              <OfficersProfile data={item} key={index} />
+            ))}
+          </div>
+        </center>
       </div>
     </>
   );
