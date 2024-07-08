@@ -10,10 +10,9 @@ export const OfficersProfile = ({ data }) => {
   return (
     <>
       <center>
-        <div>
+        <div onClick={() => setShow(true)} style={{ cursor: "pointer" }}>
           {" "}
           <img
-            onClick={() => setShow(true)}
             className="col-md-11 br col-12 profile-img"
             src={data.profileImg}
             alt="Scholar"
@@ -38,7 +37,7 @@ export const OfficersProfile = ({ data }) => {
         <Modal.Header closeButton>
           {" "}
           <Modal.Title>
-            <h5>Officers Profile</h5>
+            <h5>{data.profileName}'s Profile</h5>
           </Modal.Title>
         </Modal.Header>
         <Modal.Body>

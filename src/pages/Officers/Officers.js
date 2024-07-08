@@ -2,7 +2,7 @@ import React from "react";
 import { OfficersProfile } from "./OfficersProfile/OfficersProfile";
 import President from "../../assets/images/asogwa.jpeg";
 import "./officers.scss";
-import { president, secretary, treasurer } from "../../TextData";
+import { president, secretary, treasurer, eswatini } from "../../TextData";
 import PageLinks from "../../components/PageLinks/PageLinks";
 export const Officers = () => {
   return (
@@ -44,8 +44,8 @@ export const Officers = () => {
         </div>
         <center>
           {" "}
-          <div className="col-md-2 ">
-            {secretary.map((item, index) => (
+          <div className="col-md-2 mt2 ">
+            {eswatini.map((item, index) => (
               <OfficersProfile data={item} key={index} />
             ))}
           </div>

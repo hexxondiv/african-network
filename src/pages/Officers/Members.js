@@ -8,7 +8,7 @@ export const Members = () => {
     <>
       <div className="page-background">
         <div className=" mission-shadow header-wrapper">
-          <div className="col-md-12 officers-banner "> </div>
+          <div className="col-md-12 members-banner "> </div>
           <div className=" col-md-12 after">
             <center>
               <div
