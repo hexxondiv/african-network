@@ -11,7 +11,7 @@ import Officer10 from "../assets/images/mbalisi.jpg";
 import Officer11 from "../assets/images/abeya.png";
 import Officer12 from "../assets/images/justin.jpg";
 import Officer13 from "../assets/images/tope2.JPG";
-import Officer14 from "../assets/images/peace.jpg";
+import Officer14 from "../assets/images/peace.png";
 import Officer15 from "../assets/images/micheal.jpg";
 import Officer16 from "../assets/images/nwokoafor.jpg";
 import Officer17 from "../assets/images/ajala.jpg";

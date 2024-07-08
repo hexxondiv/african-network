@@ -4,6 +4,7 @@ import President from "../../assets/images/asogwa.jpeg";
 import "./officers.scss";
 import { president, secretary, treasurer, eswatini } from "../../TextData";
 import PageLinks from "../../components/PageLinks/PageLinks";
+import { Link } from "react-router-dom";
 export const Officers = () => {
   return (
     <>
@@ -26,12 +27,17 @@ export const Officers = () => {
       <PageLinks />
       <div className="officers-bg mt4">
         <div className="col-md-8 offset-md-2 mobile-padding no-margin d-md-flex">
+          <div className="col-md-6 off1 president2">
+            {president.map((item, index) => (
+              <OfficersProfile data={item} key={index} />
+            ))}
+          </div>{" "}
           <div className="col-md-3 off2">
             {treasurer.map((item, index) => (
               <OfficersProfile data={item} key={index} />
             ))}
           </div>{" "}
-          <div className="col-md-6 off1">
+          <div className="col-md-6 off1 president1">
             {president.map((item, index) => (
               <OfficersProfile data={item} key={index} />
             ))}
@@ -51,6 +57,14 @@ export const Officers = () => {
           </div>
         </center>
       </div>
+      <center>
+        {" "}
+        <Link to={"/members"}>
+          <button class="button-92" role="button">
+            View Members
+          </button>
+        </Link>
+      </center>
     </>
   );
 };

@@ -1,4 +1,4 @@
-import React  from "react";
+import React from "react";
 import "./_mobile-accordion.scss";
 import Accordion from "react-bootstrap/Accordion";
 import { Link, NavLink } from "react-router-dom";
@@ -32,6 +32,11 @@ const MobileAccordion = () => {
                 <Link to={"/officers"} className="mobile-navs">
                   Officers
                 </Link>{" "}
+              </li>
+              <li>
+                <Link to={"/members"} className="mobile-navs">
+                  Members
+                </Link>
               </li>
               <li>
                 {" "}
