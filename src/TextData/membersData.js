@@ -1,4 +1,4 @@
-import Officer1 from "../assets/images/asogwa.jpeg";
+import Officer1 from "../assets/images/officer1.png";
 import Officer2 from "../assets/images/sandra.jpg";
 // import Officer3 from "../assets/images/officer3.jpeg";
 import Officer4 from "../assets/images/uzochukwu.jpg";
