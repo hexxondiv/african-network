@@ -33,15 +33,7 @@ const WhoWeAre = () => {
           development studies.
         </p>
         <p>
-          The seeds of Managing{" "}
-          <strong>Network for Educational Advancement and Development</strong> were
-          planted by Professor Vincent Asogwa during the 5th Aalborg University
-          Conference whose theme was Finding Solutions to the New Challenges of
-          Internationalization held at Comwell Rebild Bakker, Aalborg-Denmark
-          4-6 June 2014. It was agreed by the inaugural group that there is lack
-          of research on Africa made by African researchers. It was also agreed
-          that it is important to strengthen research capacities and North-South
-          partnerships.
+          The seeds of Managing <strong>Network for Educational Advancement and Development</strong> were planted by Professor Vincent Chidindu Asogwa during the International Conference on Advancing the Continent of Africa through Research organized by National Association of African-American Studies and held at the University of South Africa, Pretoria between July 23rd and 25th 2023. His attendance to the conference was sponsored by the University of Eswatini, Eswatini, where he realized that Africa has barely 1% of the world's global research output and, on average, contributes about 0.4% of its GDP to research and development. It was agreed by the inaugural group that there is lack of research on Africa made by African researchers; hence the need to strengthen research capacities and North-South partnerships.
         </p>
         <p>
           In particular, the network will serve as a meeting and communication

@@ -18,7 +18,7 @@ export const LeadersProfile = ({ data }) => {
             <img
               className="col-md-11 br col-12 profile-img"
               src={data.profileImg}
-              alt="Scholar"
+              alt="{data.profileName}"
             />
             <div className="profile-name ">
               <h6>{data.profilePortfolio}</h6>

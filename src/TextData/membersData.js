@@ -1,6 +1,5 @@
 import Officer1 from "../assets/images/officer1.png";
 import Officer2 from "../assets/images/sandra.jpg";
-// import Officer3 from "../assets/images/officer3.jpeg";
 import Officer4 from "../assets/images/uzochukwu.jpg";
 import Officer5 from "../assets/images/asiru.png";
 import Officer6 from "../assets/images/liphie.png";
@@ -15,9 +14,8 @@ import Officer14 from "../assets/images/peace.png";
 import Officer15 from "../assets/images/micheal.jpg";
 import Officer16 from "../assets/images/nwokoafor.jpg";
 import Officer17 from "../assets/images/ajala.jpg";
-import Officer18 from "../assets/images/dumo.jpg";
+import Officer18 from "../assets/images/dumo.png";
 import Officer20 from "../assets/images/razak.jpg";
-import Officer21 from "../assets/images/razak.jpg";
 export const members = [
   {
     profileImg: Officer1,
@@ -42,7 +40,7 @@ export const members = [
 
     profilePortfolio: "General Secretary",
     profileQualification: "MD, PhD in Epidemiology",
-    profileName: "Augustine Sandra Eberechukwu (Ph.D)",
+    profileName: "Augustine Sandra Eberechukwu",
 
     id: 2,
   },
@@ -55,7 +53,7 @@ export const members = [
 
     profilePortfolio: "Member",
     profileQualification: "PhD in Agricultural Economics",
-    profileName: "EVARISTUS UZOCHUKWU IYIDA",
+    profileName: "Everistus Uzochukwu Iyida",
 
     id: 3,
   },
@@ -68,7 +66,7 @@ export const members = [
 
     profilePortfolio: "Member",
     profileQualification: "MSc in Electrical Engineering",
-    profileName: "Abdullahi Babatunde ASIRU ",
+    profileName: "Abdullahi Babatunde Asiru ",
 
     id: 4,
   },
@@ -83,7 +81,7 @@ export const members = [
     profileQualification: "MD, MPH in Global Health",
     profileName: "Liphie Pereira ",
 
-    id: 1,
+    id: 5,
   },
   {
     profileImg: Officer7,
@@ -96,7 +94,7 @@ export const members = [
     profileQualification: "PhD in Education Policy",
     profileName: "Bakare, Tope Oke  ",
 
-    id: 1,
+    id: 6,
   },
   {
     profileImg: Officer8,
@@ -107,9 +105,9 @@ export const members = [
 
     profilePortfolio: " Member",
     profileQualification: "PhD in Education Policy",
-    profileName: "DR. EUCHARIA IHEOMA NGEREM  ",
+    profileName: "Eucharia Iheoma Ngerem  ",
 
-    id: 1,
+    id: 7,
   },
   {
     profileImg: Officer9,
@@ -120,9 +118,9 @@ export const members = [
 
     profilePortfolio: " Member",
     profileQualification: "PhD in Education Policy",
-    profileName: "Dr. Julianah Olukemi Ayeni",
+    profileName: "Julianah Olukemi Ayeni",
 
-    id: 1,
+    id: 8,
   },
   {
     profileImg: Officer10,
@@ -135,9 +133,9 @@ export const members = [
 
     profilePortfolio: " Member",
     profileQualification: "PhD in Education Policy",
-    profileName: "MBALISI ONYEKA FESTUS ",
+    profileName: "Mbalisi Onyeka Festus ",
 
-    id: 1,
+    id: 8,
   },
   {
     profileImg: Officer11,
@@ -151,7 +149,7 @@ export const members = [
     profileQualification: "PhD in Education Policy",
     profileName: "Irimiah Abeya Ezhim  ",
 
-    id: 1,
+    id: 10,
   },
   {
     profileImg: Officer12,
@@ -164,7 +162,7 @@ export const members = [
     profileQualification: "PhD in Education Policy",
     profileName: "Justin Ugwu ",
 
-    id: 1,
+    id: 11,
   },
   {
     profileImg: Officer13,
@@ -177,7 +175,7 @@ export const members = [
     profileQualification: "PhD in Education Policy",
     profileName: "Bakare Tope Oke  ",
 
-    id: 1,
+    id: 12,
   },
   {
     profileImg: Officer14,
@@ -188,9 +186,9 @@ export const members = [
 
     profilePortfolio: " Member",
     profileQualification: "PhD in Education Policy",
-    profileName: "Dr Peace Ginika Nwokedi   ",
+    profileName: "Peace Ginika Nwokedi",
 
-    id: 1,
+    id: 13,
   },
   {
     profileImg: Officer15,
@@ -201,9 +199,9 @@ export const members = [
 
     profilePortfolio: " Member",
     profileQualification: "PhD in Education Policy",
-    profileName: "Michael Olugbenga   ",
+    profileName: "Michael Olugbenga",
 
-    id: 1,
+    id: 14,
   },
   {
     profileImg: Officer16,
@@ -214,9 +212,9 @@ export const members = [
 
     profilePortfolio: " Member",
     profileQualification: "PhD in Education Policy",
-    profileName: "Nwokafor, Chinelo Lilian   ",
+    profileName: "Nwokafor, Chinelo Lilian",
 
-    id: 1,
+    id: 15,
   },
   {
     profileImg: Officer17,
@@ -227,9 +225,9 @@ export const members = [
 
     profilePortfolio: " Member",
     profileQualification: "PhD in Education Policy",
-    profileName: "AJALA OLUWOLE SAMUEL ",
+    profileName: "Ajala Oluwole Samuel",
 
-    id: 1,
+    id: 16,
   },
   {
     profileImg: Officer18,
@@ -242,7 +240,7 @@ export const members = [
     profileQualification: "PhD in Education Policy",
     profileName: "Dumo Patience Bobmanuel  ",
 
-    id: 1,
+    id: 17,
   },
   {
     profileImg: Officer9,
@@ -253,9 +251,9 @@ export const members = [
 
     profilePortfolio: " Member",
     profileQualification: "PhD in Education Policy",
-    profileName: "SOKUNBI, GBENRO MATTHEW ",
+    profileName: "Sokunbi, Gbenro Matthew ",
 
-    id: 1,
+    id: 18,
   },
   {
     profileImg: Officer20,
@@ -266,8 +264,8 @@ export const members = [
 
     profilePortfolio: " Member",
     profileQualification: "PhD in Education Policy",
-    profileName: "Dr Rasak Adetunji ADEFABI ",
+    profileName: "Rasak Adetunji ADEFABI ",
 
-    id: 1,
+    id: 19,
   },
 ];

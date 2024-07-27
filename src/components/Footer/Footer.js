@@ -40,8 +40,9 @@ function Footer() {
             <p>ECOWAS region</p>
 
             <p>+2348034232630 / +2348068122576</p>
-            <p>Swaziland, Lagos, Johannesburg, Capetown, Nairobi, Lusaka</p>
-            <p>admin@NEAD.org</p>
+            <p>Eswatini, Lagos, Johannesburg, Capetown, Nairobi, Lusaka</p>
+            <p>info@neadafrica.com</p>
+            <p>neadafrica@gmail.com</p>
           </div>
           <div className="col-md-5">
             <div className="col-md-10 offset-md-1 email-div">
@@ -53,7 +54,7 @@ function Footer() {
         </div>
       </div>
       <center className="credits">
-        <div className="col-md-4">© NEAD 2024</div>
+        <div className="col-md-4">© NEAD Africa 2024</div>
         <div className="col-md-4">by <Link className="text-light" target="_blank" to={"https://www.hexxondiv.com"}>Hexxondiv Global Services</Link></div>
       </center>
     </footer>

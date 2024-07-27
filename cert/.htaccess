@@ -1,0 +1,7 @@
+RewriteEngine On
+
+# Redirect URLs like http://localhost/anrd/cert/001 to verify/index.php
+RewriteRule ^([0-9]+)$ verify/?ref=$1 [L]
+
+# Ensure direct access to pdfs is denied
+RewriteRule ^pdfs/ - [F,L]
