@@ -38,30 +38,48 @@ $home_url = 'https://neadafrica.com/';
 $base_url = 'https://neadafrica.com/cert/';
 $cert_url = 'https://neadafrica.com/cert/verify';
 
+// Read and decode JSON file
+$json_data = file_get_contents('../pdfs/members.json');  // Adjust the path to point to the correct location
+$certificates = json_decode($json_data, true);
+
+// Function to find the name by reference
+function findNameByRef($certificates, $ref) {
+    foreach ($certificates as $certificate) {
+        if ((int)$certificate['ref'] === (int)$ref) {
+            return $certificate['name'];
+        }
+    }
+    return null;
+}
+
 // Check for ref parameter in GET or POST request
 if (isset($_GET['ref']) || isset($_POST['ref'])) {
     $ref = isset($_GET['ref']) ? htmlspecialchars($_GET['ref']) : htmlspecialchars($_POST['ref']);
+    $name = findNameByRef($certificates, $ref);
     $file_path = "../pdfs/{$ref}.pdf";  // Adjust the path to point to the correct location
 
     // Check if the file exists
     if (file_exists($file_path)) {
-        { ?>
+        if ($name) { ?>
             <!-- Show success card -->
             <div class="center-container col-md-12 card">
                 <div class="text-center">
                     <!-- Logo Header -->
-                    <a href="<?php echo $home_url ?>"><img src="../logo.png" alt="Logo" class="mb-4"
-                                                           style="max-width: 150px;"></a>
+                    <a href="<?php echo $home_url ?>"><img src="../logo.png" alt="Logo" class="mb-4" style="max-width: 150px;"></a>
 
                     <h4 class="text-muted">Network for Educational Advancement and Development</h4>
                     <h3>Certificate Verification Portal</h3>
                     <?php
-                    echo "<div class='alert alert-success'>Certificate Verified for {$ref}.</div>";
+                    echo "<div class='alert alert-success'>Certificate Verified: <strong>{$name}</strong>.</div>";
                     echo "<form method='post' action='{$cert_url}/dl/'><input type='hidden' name='ref' value='{$ref}'><button type='submit' class='btn btn-success'>Download Certificate</button></form>";
                     ?>
                 </div>
             </div>
-        <?php }
+        <?php } else {
+            $_SESSION['error'] = "Certificate Verified for reference number: $ref, but name not found.";
+            header("Location: $base_url");
+            exit();
+        }
     } else {
         $_SESSION['error'] = "No Certificate found for the reference number: $ref";
         header("Location: $base_url");
@@ -69,7 +87,7 @@ if (isset($_GET['ref']) || isset($_POST['ref'])) {
     }
 } else {
     // Redirect to base URL if no ref parameter
-    header("Redirect: $base_url");
+    header("Location: $base_url");
     exit();
 }
 ?>
