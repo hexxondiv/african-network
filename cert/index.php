@@ -32,8 +32,8 @@
    <?php
         session_start();
     // Define the base URL
-    $base_url = 'http://localhost/anrd/cert/';
-    //$base_url = 'https://neadafrica.com/cert/';
+//    $base_url = 'http://localhost/anrd/cert/';
+    $base_url = 'https://neadafrica.com/cert/';
     $home_url = 'https://neadafrica.com/';
     ?>
     

@@ -62,7 +62,8 @@ const Contact = () => {
                   </g>
                 </svg>
               </div>
-              <p>Sandton Head Office Johannesburg</p>
+              <p>#12 Administrative Block, Luyengo Campus, University of Eswatini, Eswatini</p>
+              <p>Block B5 office, Faculty of Education Block, Choba Campus, University of Port Harcourt, Nigeria</p>
             </div>{" "}
           </center>{" "}
           <center>
@@ -83,6 +84,7 @@ const Contact = () => {
                   </g>
                 </svg>
               </div>
+              <p>info@neadafrica.com</p>
               <p>neadafrica@gmail.com</p>
             </div>{" "}
           </center>

@@ -4,6 +4,7 @@ import "./navbar.scss";
 
 import Logo from "../../assets/images/logo.png";
 import MobileAccordion from "./MobileAccordion/MobileAccordion";
+import {API_URL} from "../../config";
 export const Navbar = () => {
   const [isHome, setIsHome] = useState(true);
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -101,9 +102,6 @@ export const Navbar = () => {
                       <li>
                         <Link to={"/members"}>Members</Link>
                       </li>
-                      <li>
-                        <Link to={"/contact"}>Contact us</Link>
-                      </li>
                     </ul>
                   </div>
                 </div>
@@ -139,7 +137,7 @@ export const Navbar = () => {
                   <div className="content2 ">
                     <ul className="list-unstyled ">
                       <li>
-                        <Link to={"/journal"}>NEAD Journal</Link>
+                        <Link to={API_URL}>NEAD Journal</Link>
                       </li>
                       <li>
                         {" "}
@@ -150,6 +148,12 @@ export const Navbar = () => {
                 </div>
               </div>
             </li>
+            <li className="list-inline-item ">
+              <NavLink to={"/contact"} className="home-btn">
+                Contact
+              </NavLink>{" "}
+            </li>
+
           </ul>
           <Link to={"/join-us"}>
             {" "}

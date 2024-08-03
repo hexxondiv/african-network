@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import {API_URL} from "../../config";
 import PageLinks from "../../components/PageLinks/PageLinks";
 import "./join-us.scss";
 export const JoinUs = () => {
@@ -34,40 +35,41 @@ export const JoinUs = () => {
                 recurring payments. Active Membership is open to all individuals.
                 Only Active Members may serve in leadership positions in the association.
               </p>
+              <p>Join the Network for Educational Advancement and Development (NEAD) Membership to access exclusive resources, cutting-edge research, and professional development opportunities aimed at enhancing education across Africa. As a member, you will benefit from a wealth of educational materials, networking with leading educators and policymakers, discounted event rates, and eligibility for awards. Whether you are an educator, researcher, policymaker, student, or passionate about educational development, NEAD Membership provides the tools and connections to help you make a meaningful impact. Join us today at https://neadafrica.com/membership and be part of transforming education in Africa.</p>
             </div>
           </div>
          
-          <div className="flexy flexyM">
-            <input type="radio" />
-            <div>
-              <h6>Life Membership-Full Payment - $3,000.00 (USD)</h6>
-              <p>Subscription period: Unlimited Full payment of $3,000</p>
-            </div>
-          </div>
-          <div className="flexy flexyM">
-            <input type="radio" />
-            <div>
-              <h6>Non-Member - Free</h6>
-              <p>
-                Subscription period: Unlimited Included in the directory but no
-                access to membership only areas.
-              </p>
-            </div>
-          </div>
-          <div className="flexy flexyM">
-            <input type="radio" />
-            <div>
-              <h6>Student - &#8358;3,000 (NGN)</h6>
-              <p>
-                Subscription period: 1 year, on: January 1st. No automatically
-                recurring payments. Student Membership is open to undergraduate
-                and graduate students studying for careers in education, communications, leadership,
-                extension education or closely related fields. Student Members
-                are eligible to attend and participate in discussion of NEAD
-                Africa, however they are not eligible to vote or hold office.
-              </p>
-            </div>
-          </div>
+          {/*<div className="flexy flexyM">*/}
+          {/*  <input type="radio" />*/}
+          {/*  <div>*/}
+          {/*    <h6>Life Membership-Full Payment - $3,000.00 (USD)</h6>*/}
+          {/*    <p>Subscription period: Unlimited Full payment of $3,000</p>*/}
+          {/*  </div>*/}
+          {/*</div>*/}
+          {/*<div className="flexy flexyM">*/}
+          {/*  <input type="radio" />*/}
+          {/*  <div>*/}
+          {/*    <h6>Non-Member - Free</h6>*/}
+          {/*    <p>*/}
+          {/*      Subscription period: Unlimited Included in the directory but no*/}
+          {/*      access to membership only areas.*/}
+          {/*    </p>*/}
+          {/*  </div>*/}
+          {/*</div>*/}
+          {/*<div className="flexy flexyM">*/}
+          {/*  <input type="radio" />*/}
+          {/*  <div>*/}
+          {/*    <h6>Student - &#8358;3,000 (NGN)</h6>*/}
+          {/*    <p>*/}
+          {/*      Subscription period: 1 year, on: January 1st. No automatically*/}
+          {/*      recurring payments. Student Membership is open to undergraduate*/}
+          {/*      and graduate students studying for careers in education, communications, leadership,*/}
+          {/*      extension education or closely related fields. Student Members*/}
+          {/*      are eligible to attend and participate in discussion of NEAD*/}
+          {/*      Africa, however they are not eligible to vote or hold office.*/}
+          {/*    </p>*/}
+          {/*  </div>*/}
+          {/*</div>*/}
         </div>
       </div>
       <button onClick={handleClick} className="offset-md-11 steps-btn">
@@ -205,33 +207,33 @@ export const JoinUs = () => {
       </div>
       <PageLinks />
       <div className="col-md-8 offset-md-2 mt7 join-us-div mobile-padding">
-        <h1>Join NEAD</h1>
+        <h1>Join NEAD Africa!</h1>
         <p>
           Full access to the NEAD Journal is available to
           paid NEAD members. The Journal is now published in PDF format. Individual
           articles and entire journals may be downloaded for offline rea ding.
           Journals from Volume 1 (2024) forward are available online. The
-          Journal is also indexed by EBSCO.
+          Journal is also indexed by Google Scholar.
         </p>
         <p>
           More information about the NEAD can be found{" "}
-          <Link to={"/who-we-are"}>HERE</Link>
+          <Link to={API_URL}>HERE</Link>
         </p>
         <p>
-          Usernames and passwords for the JAE are created from the NEAD
-          membership roster and may take up to two weeks to be activated.
+          Usernames and passwords for the NEADJ are created from the NEAD
+          membership roaster and is activated within 72 hours.
         </p>
         <p>
           Membership questions should be addressed to the
-          <Link> NEAD Association Manager.</Link>
+          <Link to={"mailTo:neadafrica@gmail.com" }> NEAD Association Manager.</Link>
         </p>
         <p>
           Lost passwords can be retrieved from the{" "}
-          <Link>https://neadafrica.org/</Link> site using your email address.
+          <Link to={API_URL+"neadj/login/lostPassword"}>Journal Site</Link> using your email address.
         </p>
         <p>
           For questions about this system please contact the{" "}
-          <Link>NEAD Editor</Link>
+          <Link to={"mailTo:editor-in-chief@neadafrica.com"}>NEAD Journal Editor</Link>
         </p>
         <div>{content}</div>
       </div>

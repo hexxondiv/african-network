@@ -29,11 +29,11 @@ export const JournalOfEdu = () => {
       <div className="col-md-8 offset-md-2 journal-details mt2">
         <h4>
           <em>
-            NEAD Journal of Education
+            NEAD Journal
           </em>
         </h4>
-        <h5>NEAD Journal of Education Online Publishing</h5>
-        <Link to={API_URL}>Go to Journal</Link>
+        <h5>NEAD Journal Online Publishing</h5>
+        <a href={API_URL}>Go to Journal</a>
         <p>
           Full Journal access is available to paid NEAD members. The NEADJ is now
           published in PDF format. Individual articles and entire journals may
@@ -56,7 +56,7 @@ export const JournalOfEdu = () => {
           To submit and review article for the Journal, visit the PKP Submission
           site for NEADJ
         </p>
-        <Link to={API_URL}>Link to PKP</Link>
+        <a href={API_URL+"neadj/user/register"}>Link to PKP</a>
         <p>You create your own username and password.</p>
         For questions about this system, please contact the{" "}
         <Link to={""}>NEADJ Editor.</Link>
@@ -71,10 +71,11 @@ export const JournalOfEdu = () => {
           them to:
         </p>
         <h5>NEAD Treasury</h5>
-        <p>305 Rolfs Hall<br/>
-        PO Box 110540<br/>
-        Gainesville, FL 32611<br/>
-        352-392-0502</p>
+        <p>#12 Administrative Block,
+          <br/>Luyengo Campus,
+          <br/>University of Eswatini, Eswatini
+          <br/>+268 768 021 79
+          <br/>+234 803 423 2630</p>
         <Link to={""}>treasury@neadsafrica.org</Link>
       </div>
     </>
