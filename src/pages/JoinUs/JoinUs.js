@@ -216,8 +216,7 @@ export const JoinUs = () => {
           Journal is also indexed by Google Scholar.
         </p>
         <p>
-          More information about the NEAD can be found{" "}
-          <Link to={API_URL}>HERE</Link>
+          More information about the NEAD can be found <a href={API_URL} target="_blank" rel="noopener noreferrer">HERE</a>
         </p>
         <p>
           Usernames and passwords for the NEADJ are created from the NEAD
@@ -225,15 +224,15 @@ export const JoinUs = () => {
         </p>
         <p>
           Membership questions should be addressed to the
-          <Link to={"mailTo:neadafrica@gmail.com" }> NEAD Association Manager.</Link>
+          <a  target="_blank" rel="noopener noreferrer" href={"mailTo:neadafrica@gmail.com" }> NEAD Association Manager.</a>
         </p>
         <p>
           Lost passwords can be retrieved from the{" "}
-          <Link to={API_URL+"neadj/login/lostPassword"}>Journal Site</Link> using your email address.
+          <a  target="_blank" rel="noopener noreferrer" href={API_URL+"neadj/login/lostPassword"}>Journal Site</a> using your email address.
         </p>
         <p>
           For questions about this system please contact the{" "}
-          <Link to={"mailTo:editor-in-chief@neadafrica.com"}>NEAD Journal Editor</Link>
+          <a  target="_blank" rel="noopener noreferrer" href={"mailTo:editor-in-chief@neadafrica.com"}>NEAD Journal Editor</a>
         </p>
         <div>{content}</div>
       </div>

@@ -137,7 +137,12 @@ export const Navbar = () => {
                   <div className="content2 ">
                     <ul className="list-unstyled ">
                       <li>
-                        <Link to={API_URL}>NEAD Journal</Link>
+                        <a 
+    href={API_URL} 
+    target="_blank" 
+    rel="noopener noreferrer"
+    className="dropdown-item"
+  >NEAD Journal</a>
                       </li>
                       <li>
                         {" "}
